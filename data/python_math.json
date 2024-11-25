@@ -13,7 +13,7 @@
     "B": "3.0",
     "C": "2",
     "D": "2.5",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Given z = 3+4j, what is abs(z)?",
@@ -21,7 +21,7 @@
     "B": "5",
     "C": "7",
     "D": "25",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is math.atan2(0,1)?",
@@ -37,7 +37,7 @@
     "B": "\u03c0/2",
     "C": "\u03c0",
     "D": "\u03c0/4",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is math.comb(10,0)?",
@@ -53,7 +53,7 @@
     "B": "6",
     "C": "1",
     "D": "0",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is math.cos(math.pi)?",
@@ -77,7 +77,7 @@
     "B": "None of these",
     "C": "0",
     "D": "1",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is math.cosh(math.log(2))?",
@@ -85,7 +85,7 @@
     "B": "2.0",
     "C": "1.75",
     "D": "1.5",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is math.degrees(math.acos(-1))?",
@@ -93,7 +93,7 @@
     "B": "270",
     "C": "90",
     "D": "360",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is math.degrees(math.pi/6)?",
@@ -102,14 +102,6 @@
     "C": "15",
     "D": "60",
     "answer": "A"
-  },
-  {
-    "question": "What is math.dist((0,0), (3,4))?",
-    "A": "7",
-    "B": "25",
-    "C": "5",
-    "D": "12",
-    "answer": "D"
   },
   {
     "question": "What is math.dist((0,0,0), (1,1,1))?",
@@ -133,7 +125,7 @@
     "B": "16",
     "C": "64",
     "D": "8",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is math.exp2(math.log2(8))?",
@@ -141,7 +133,7 @@
     "B": "16",
     "C": "32",
     "D": "4",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is math.expm1(0)?",
@@ -149,7 +141,7 @@
     "B": "None of these",
     "C": "e",
     "D": "0",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is math.expm1(math.log1p(1))?",
@@ -173,7 +165,7 @@
     "B": "\u221a2",
     "C": "2\u221a2",
     "D": "4",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is math.hypot(3,4,5,6,7,8,9,10)?",
@@ -205,7 +197,7 @@
     "B": "1.0",
     "C": "2.0",
     "D": "0.5",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is math.log(1000, 10)?",
@@ -221,7 +213,7 @@
     "B": "1",
     "C": "2",
     "D": "e",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is math.log10(0.001)?",
@@ -229,7 +221,7 @@
     "B": "-3",
     "C": "0.001",
     "D": "Error",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is math.log10(1000000)?",
@@ -237,7 +229,7 @@
     "B": "7",
     "C": "6",
     "D": "5",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is math.log1p(0)?",
@@ -245,7 +237,7 @@
     "B": "0",
     "C": "Error",
     "D": "-1",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is math.log1p(math.e**2-1)?",
@@ -261,7 +253,7 @@
     "B": "ln(2)",
     "C": "0",
     "D": "1",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is math.log2(0.125)?",
@@ -285,7 +277,7 @@
     "B": "2",
     "C": "1.4426950408889634",
     "D": "e",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is math.nextafter(1.0, 2.0) - 1.0?",
@@ -293,7 +285,7 @@
     "B": "2.220446049250313e-16",
     "C": "0.1",
     "D": "1e-16",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is math.nextafter(1.0, math.inf) - 1.0?",
@@ -301,7 +293,7 @@
     "B": "0",
     "C": "1",
     "D": "2.220446049250313e-16",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is math.nextafter(2.0, 1.0) - 2.0?",
@@ -317,7 +309,7 @@
     "B": "576",
     "C": "384",
     "D": "480",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is math.prod(range(1,5))?",
@@ -333,7 +325,7 @@
     "B": "2\u03c0",
     "C": "\u03c0/4",
     "D": "\u03c0/2",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is math.remainder(10.5, 3.0)?",
@@ -365,7 +357,7 @@
     "B": "1",
     "C": "\u221a2",
     "D": "0",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is math.tanh(0)?",
@@ -373,7 +365,7 @@
     "B": "None of these",
     "C": "0",
     "D": "1",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is math.tanh(math.inf)?",
@@ -389,7 +381,7 @@
     "B": "1",
     "C": "2.220446049250313e-16",
     "D": "1e-16",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the output of bin(15 ^ 7)[2:]?",
@@ -405,7 +397,7 @@
     "B": "6.0",
     "C": "6",
     "D": "7",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the output of math.ceil(math.pi * math.e)?",
@@ -421,7 +413,7 @@
     "B": "17",
     "C": "16",
     "D": "14",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the output of math.copysign(1.0, -0.0)?",
@@ -429,7 +421,7 @@
     "B": "0.0",
     "C": "-0.0",
     "D": "1.0",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the output of math.copysign(math.inf, -1)?",
@@ -437,7 +429,7 @@
     "B": "1",
     "C": "-1",
     "D": "inf",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.degrees(math.pi/2)?",
@@ -445,7 +437,7 @@
     "B": "180",
     "C": "45",
     "D": "60",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.fmod(-5.0, 2)?",
@@ -453,7 +445,7 @@
     "B": "-1",
     "C": "-1.0",
     "D": "1",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the output of math.fmod(10.5, 3)?",
@@ -477,7 +469,7 @@
     "B": "10.0",
     "C": "0.1",
     "D": "0.9999999999999999",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the output of math.gamma(0.5)?",
@@ -485,7 +477,7 @@
     "B": "\u03c0/2",
     "C": "2\u03c0",
     "D": "\u03c0",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.gamma(5)?",
@@ -509,7 +501,7 @@
     "B": "Error",
     "C": "True",
     "D": "None",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.isinf(1/math.sin(0))?",
@@ -517,7 +509,7 @@
     "B": "False",
     "C": "True",
     "D": "None",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the output of math.isinf(math.tan(math.pi/2))?",
@@ -525,7 +517,7 @@
     "B": "None",
     "C": "False",
     "D": "Error",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.isnan(0/0)?",
@@ -533,7 +525,7 @@
     "B": "False",
     "C": "Error",
     "D": "True",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the output of math.isnan(math.log(-1))?",
@@ -544,20 +536,12 @@
     "answer": "D"
   },
   {
-    "question": "What is the output of math.isqrt(1000)?",
-    "A": "33",
-    "B": "32",
-    "C": "31",
-    "D": "34",
-    "answer": "C"
-  },
-  {
     "question": "What is the output of math.modf(-3.14)[0]?",
     "A": "-3",
     "B": "0.14",
     "C": "3",
     "D": "-0.14",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.modf(3.14159)?",
@@ -565,7 +549,7 @@
     "B": "(3.0, 0.14159)",
     "C": "(0.14159, 3.0)",
     "D": "(3, 0.14159)",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the output of math.modf(math.pi)[1]?",
@@ -573,7 +557,7 @@
     "B": "0.14159",
     "C": "3",
     "D": "3.0",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the output of math.prod([2,3,4])?",
@@ -589,7 +573,7 @@
     "B": "-1",
     "C": "1",
     "D": "None of these",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the output of math.trunc(-3.9999)?",
@@ -597,7 +581,7 @@
     "B": "-4.0",
     "C": "-3",
     "D": "-4",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the output of math.trunc(3.9999)?",
@@ -613,7 +597,7 @@
     "B": "32.0",
     "C": "31",
     "D": "32",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the output of round(math.e, 2)?",
@@ -629,7 +613,7 @@
     "B": "-3-4j",
     "C": "3-4j",
     "D": "3+4j",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the result of math.factorial(0)?",
@@ -637,7 +621,7 @@
     "B": "Error",
     "C": "None",
     "D": "0",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the result of math.factorial(5) % 7?",
@@ -661,7 +645,7 @@
     "B": "-1",
     "C": "-2",
     "D": "1",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the result of math.frexp(32)[0]?",
@@ -685,7 +669,7 @@
     "B": "1",
     "C": "15",
     "D": "10",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the result of math.gcd(2**4, 2**6)?",
@@ -701,7 +685,7 @@
     "B": "64",
     "C": "512",
     "D": "256",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the result of math.gcd(math.factorial(3), 10)?",
@@ -717,7 +701,7 @@
     "B": "4",
     "C": "2",
     "D": "24",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the result of math.gcd(math.lcm(4,6), 8)?",
@@ -725,7 +709,7 @@
     "B": "8",
     "C": "6",
     "D": "4",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the result of math.gcd(math.lcm(6,8), 24)?",
@@ -757,7 +741,7 @@
     "B": "1001",
     "C": "999",
     "D": "1000",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the result of math.isqrt(2**30)?",
@@ -797,7 +781,7 @@
     "B": "e^2",
     "C": "e",
     "D": "1",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the result of math.perm(10,1)?",
@@ -805,7 +789,7 @@
     "B": "10",
     "C": "9",
     "D": "90",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the result of math.perm(5,2)?",
@@ -813,7 +797,7 @@
     "B": "25",
     "C": "10",
     "D": "15",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the result of math.perm(5,5)?",
@@ -869,6 +853,6 @@
     "B": "6",
     "C": "24",
     "D": "18",
-    "answer": "C"
+    "answer": "A"
   }
 ]

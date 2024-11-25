@@ -5,15 +5,15 @@
     "B": "array(index)",
     "C": "array[index]",
     "D": "array.index",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the correct way to comment multiple lines?",
     "A": "/* comment */",
     "B": "# comment #",
     "C": "//comment//",
-    "D": "<!-- comment -->",
-    "answer": "D"
+    "D": "",
+    "answer": "A"
   },
   {
     "question": "What is the correct way to close a file?",
@@ -21,7 +21,7 @@
     "B": "fileclose()",
     "C": "end()",
     "D": "fclose()",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the correct way to declare a function?",
@@ -45,7 +45,7 @@
     "B": "char str[];",
     "C": "String str;",
     "D": "string str;",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the correct way to declare a structure?",
@@ -53,7 +53,7 @@
     "B": "type struct_name",
     "C": "structure struct_name",
     "D": "struct struct_name",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the correct way to declare a union?",
@@ -61,7 +61,7 @@
     "B": "class union_name",
     "C": "type union_name",
     "D": "struct union_name",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the correct way to declare an array?",
@@ -69,7 +69,7 @@
     "B": "[size]int array",
     "C": "int array[size]",
     "D": "array int[size]",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the correct way to declare an integer variable in C?",
@@ -77,7 +77,7 @@
     "B": "var x;",
     "C": "number x;",
     "D": "int x;",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the correct way to define a constant?",
@@ -85,7 +85,7 @@
     "B": "#define PI 3.14",
     "C": "const PI = 3.14;",
     "D": "constant PI = 3.14;",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the correct way to open a file in C?",
@@ -93,7 +93,7 @@
     "B": "open()",
     "C": "fopen()",
     "D": "fileopen()",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the correct way to read a character?",
@@ -101,7 +101,7 @@
     "B": "scan()",
     "C": "input()",
     "D": "getchar()",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the correct way to use enum?",
@@ -109,7 +109,7 @@
     "B": "enumeration name",
     "C": "class enum",
     "D": "type enum",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the correct way to use goto statement?",
@@ -117,7 +117,7 @@
     "B": "branch label",
     "C": "jump label",
     "D": "goto label",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the correct way to use switch statement?",
@@ -133,7 +133,7 @@
     "B": "typedef existing_type new_type",
     "C": "newtype existing_type",
     "D": "type new_type",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the format specifier for printing a character?",
@@ -141,7 +141,7 @@
     "B": "%d",
     "C": "%c",
     "D": "%f",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the format specifier for printing a float?",
@@ -157,7 +157,7 @@
     "B": "To continue the loop",
     "C": "To exit from a loop or switch",
     "D": "To skip an iteration",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the format specifier for printing a string?",
@@ -165,7 +165,7 @@
     "B": "%f",
     "C": "%d",
     "D": "%c",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of continue statement?",
@@ -173,7 +173,7 @@
     "B": "Break loop",
     "C": "Skip iteration",
     "D": "End program",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of sizeof operator?",
@@ -181,7 +181,7 @@
     "B": "Get size in bytes",
     "C": "Count elements",
     "D": "Find length",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of static keyword?",
@@ -189,7 +189,7 @@
     "B": "Preserve value",
     "C": "Dynamic allocation",
     "D": "Temporary storage",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of volatile keyword?",
@@ -197,7 +197,7 @@
     "B": "Memory allocation",
     "C": "Prevent optimization",
     "D": "Speed optimization",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the size of char data type in C?",
@@ -205,7 +205,7 @@
     "B": "4 bytes",
     "C": "2 bytes",
     "D": "1 byte",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the format specifier for printing an integer?",
@@ -213,7 +213,7 @@
     "B": "%d",
     "C": "%f",
     "D": "%s",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the size of int data type in C?",
@@ -221,7 +221,7 @@
     "B": "1 byte",
     "C": "2 bytes",
     "D": "4 bytes",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "Which function is used to allocate memory dynamically?",
@@ -237,7 +237,7 @@
     "B": "cls()",
     "C": "system(\"cls\")",
     "D": "clrscr()",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "Which function is used to compare strings?",
@@ -245,7 +245,7 @@
     "B": "cmp()",
     "C": "compare()",
     "D": "strcmp()",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "Which function is used to concatenate strings?",
@@ -269,7 +269,7 @@
     "B": "int()",
     "C": "atoi()",
     "D": "integer()",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which function is used to copy strings?",
@@ -293,7 +293,7 @@
     "B": "strlength()",
     "C": "strlen()",
     "D": "length()",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "Which function is used to read formatted input?",
@@ -301,7 +301,7 @@
     "B": "get()",
     "C": "scanf()",
     "D": "read()",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "Which header file is required for printf() function?",
@@ -317,7 +317,7 @@
     "B": "break",
     "C": "exit",
     "D": "end",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Which loop is guaranteed to execute at least once?",
@@ -333,7 +333,7 @@
     "B": "AND",
     "C": "&&",
     "D": "&",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "Which operator is used for bitwise OR?",
@@ -341,7 +341,7 @@
     "B": "OR",
     "C": "or",
     "D": "||",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Which operator is used for bitwise XOR?",
@@ -349,7 +349,7 @@
     "B": "XOR",
     "C": "^^",
     "D": "^",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which operator is used for conditional operation?",
@@ -373,7 +373,7 @@
     "B": "&&",
     "C": "&&",
     "D": "&",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which operator is used for logical OR?",
@@ -381,7 +381,7 @@
     "B": "OR",
     "C": "or",
     "D": "|",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "Which operator is used for not equal to comparison?",
@@ -389,7 +389,7 @@
     "B": "~=",
     "C": "<>",
     "D": "/=",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Which operator is used for right shift?",
@@ -397,7 +397,7 @@
     "B": ">>",
     "C": "->",
     "D": "->>",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which operator is used for pointer declaration?",
@@ -405,7 +405,7 @@
     "B": "#",
     "C": "*",
     "D": "@",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which operator is used for remainder operation?",
@@ -413,7 +413,7 @@
     "B": "%",
     "C": "/",
     "D": "mod",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which operator is used to get memory address of a variable?",
@@ -421,6 +421,6 @@
     "B": "#",
     "C": "@",
     "D": "&",
-    "answer": "C"
+    "answer": "D"
   }
 ]

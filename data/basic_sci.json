@@ -5,7 +5,7 @@
     "B": "Wind patterns",
     "C": "Weather patterns",
     "D": "Tectonic plate movement",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What causes ocean tides?",
@@ -13,7 +13,7 @@
     "B": "Earth's rotation",
     "C": "Gravitational pull of the Moon",
     "D": "Wind",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is Newton's First Law about?",
@@ -21,7 +21,7 @@
     "B": "Energy",
     "C": "Force",
     "D": "Inertia",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is an atom's atomic number?",
@@ -29,7 +29,7 @@
     "B": "Total particles",
     "C": "Number of protons",
     "D": "Number of electrons",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is photosynthesis?",
@@ -37,7 +37,7 @@
     "B": "Protein synthesis",
     "C": "Breaking down food",
     "D": "Converting light to chemical energy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the Earth's primary atmosphere made of?",
@@ -45,7 +45,7 @@
     "B": "Carbon dioxide",
     "C": "Helium",
     "D": "Nitrogen and Oxygen",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the function of enzymes?",
@@ -61,7 +61,7 @@
     "B": "Clot blood",
     "C": "Carry oxygen",
     "D": "Produce antibodies",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the function of the lungs?",
@@ -69,7 +69,7 @@
     "B": "Digest food",
     "C": "Filter blood",
     "D": "Gas exchange",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the function of white blood cells?",
@@ -77,7 +77,7 @@
     "B": "Transport nutrients",
     "C": "Carry oxygen",
     "D": "Fight infection",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the greenhouse effect?",
@@ -93,7 +93,7 @@
     "B": "Oxygen",
     "C": "Carbon",
     "D": "Helium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the main function of DNA?",
@@ -101,7 +101,7 @@
     "B": "Protein synthesis",
     "C": "Genetic information storage",
     "D": "Cell division",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the main function of DNA?",
@@ -109,7 +109,7 @@
     "B": "Genetic info",
     "C": "Movement",
     "D": "Digestion",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the main function of antibodies?",
@@ -117,7 +117,7 @@
     "B": "Fight infection",
     "C": "Clot blood",
     "D": "Digest food",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the main function of arteries?",
@@ -125,7 +125,7 @@
     "B": "Produce blood",
     "C": "Transport blood",
     "D": "Clean blood",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the main function of blood?",
@@ -133,7 +133,7 @@
     "B": "Transport",
     "C": "Digestion",
     "D": "Protection",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of blood?",
@@ -141,7 +141,7 @@
     "B": "Movement",
     "C": "Digestion",
     "D": "Transportation",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the main function of hormones?",
@@ -157,7 +157,7 @@
     "B": "Storage",
     "C": "Support",
     "D": "Protection",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the main function of leaves?",
@@ -173,7 +173,7 @@
     "B": "Protection",
     "C": "Support",
     "D": "Movement",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the main function of platelets?",
@@ -189,7 +189,7 @@
     "B": "Photosynthesis",
     "C": "Water absorption",
     "D": "Seed production",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the adrenal glands?",
@@ -197,7 +197,7 @@
     "B": "Breathing",
     "C": "Digestion",
     "D": "Stress response",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the brain?",
@@ -205,7 +205,7 @@
     "B": "Control center",
     "C": "Blood pumping",
     "D": "Breathing",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the brain?",
@@ -213,7 +213,7 @@
     "B": "Moving",
     "C": "Digesting",
     "D": "Breathing",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the main function of the cerebellum?",
@@ -221,7 +221,7 @@
     "B": "Balance control",
     "C": "Vision",
     "D": "Speech",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the cerebrum?",
@@ -229,7 +229,7 @@
     "B": "Breathing",
     "C": "Digestion",
     "D": "Balance",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the main function of the esophagus?",
@@ -237,7 +237,7 @@
     "B": "Food transport",
     "C": "Absorption",
     "D": "Digestion",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the gallbladder?",
@@ -245,7 +245,7 @@
     "B": "Produce hormones",
     "C": "Bile storage",
     "D": "Filter blood",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the heart?",
@@ -261,7 +261,7 @@
     "B": "Thinking",
     "C": "Breathing",
     "D": "Pumping blood",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the hypothalamus?",
@@ -269,7 +269,7 @@
     "B": "Body regulation",
     "C": "Memory",
     "D": "Speech",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the kidneys?",
@@ -277,7 +277,7 @@
     "B": "Store nutrients",
     "C": "Filter blood",
     "D": "Digestion",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the kidneys?",
@@ -285,7 +285,7 @@
     "B": "Movement",
     "C": "Breathing",
     "D": "Digestion",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the main function of the large intestine?",
@@ -293,7 +293,7 @@
     "B": "Storage",
     "C": "Water absorption",
     "D": "Nutrient absorption",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the liver?",
@@ -301,7 +301,7 @@
     "B": "Digestion",
     "C": "Detoxification",
     "D": "Blood production",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the liver?",
@@ -309,7 +309,7 @@
     "B": "Digestion",
     "C": "Detoxification",
     "D": "Movement",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the lungs?",
@@ -317,7 +317,7 @@
     "B": "Hormone production",
     "C": "Blood filtering",
     "D": "Gas exchange",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the medulla?",
@@ -325,7 +325,7 @@
     "B": "Memory",
     "C": "Movement",
     "D": "Basic functions",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the mitochondria?",
@@ -333,7 +333,7 @@
     "B": "Energy production",
     "C": "Storage",
     "D": "Cell division",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the nervous system?",
@@ -349,7 +349,7 @@
     "B": "Blood filtering",
     "C": "Enzyme production",
     "D": "Waste removal",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the pancreas?",
@@ -365,7 +365,7 @@
     "B": "Hormone control",
     "C": "Movement",
     "D": "Digestion",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the skeleton?",
@@ -381,7 +381,7 @@
     "B": "Protection",
     "C": "Breathing",
     "D": "Movement",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the small intestine?",
@@ -389,7 +389,7 @@
     "B": "Water absorption",
     "C": "Waste removal",
     "D": "Nutrient absorption",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the spleen?",
@@ -397,7 +397,7 @@
     "B": "Energy storage",
     "C": "Hormone production",
     "D": "Blood filtering",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the main function of the stomach?",
@@ -405,7 +405,7 @@
     "B": "Food breakdown",
     "C": "Absorption",
     "D": "Filter",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the stomach?",
@@ -413,7 +413,7 @@
     "B": "Storage",
     "C": "Digestion",
     "D": "Transport",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the main function of the thymus?",
@@ -421,7 +421,7 @@
     "B": "Immune development",
     "C": "Digestion",
     "D": "Hormone production",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the thyroid?",
@@ -429,7 +429,7 @@
     "B": "Hormone production",
     "C": "Digestion",
     "D": "Breathing",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the main function of the trachea?",
@@ -437,7 +437,7 @@
     "B": "Air transport",
     "C": "Blood transport",
     "D": "Food transport",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the main function of veins?",
@@ -445,7 +445,7 @@
     "B": "Clean blood",
     "C": "Store blood",
     "D": "Produce blood",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the ozone layer's function?",
@@ -453,7 +453,7 @@
     "B": "Temperature control",
     "C": "UV radiation protection",
     "D": "Rain formation",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of adaptation?",
@@ -461,7 +461,7 @@
     "B": "Reproduction",
     "C": "Migration",
     "D": "Extinction",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the process of capillary action?",
@@ -469,7 +469,7 @@
     "B": "Sinking",
     "C": "Liquid rising",
     "D": "Floating",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of cellular respiration?",
@@ -477,7 +477,7 @@
     "B": "Protein synthesis",
     "C": "Cell division",
     "D": "Energy production",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the process of combustion?",
@@ -485,7 +485,7 @@
     "B": "Burning",
     "C": "Melting",
     "D": "Freezing",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the process of condensation?",
@@ -501,7 +501,7 @@
     "B": "Crystal formation",
     "C": "Evaporation",
     "D": "Melting",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the process of decomposition?",
@@ -517,7 +517,7 @@
     "B": "Cell division",
     "C": "Cell growth",
     "D": "Cell death",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the process of diffusion?",
@@ -525,7 +525,7 @@
     "B": "Active transport",
     "C": "Energy production",
     "D": "Particle movement",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the process of diffusion?",
@@ -533,7 +533,7 @@
     "B": "Passive movement",
     "C": "No movement",
     "D": "Forced movement",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the process of digestion?",
@@ -541,7 +541,7 @@
     "B": "Cell division",
     "C": "Energy production",
     "D": "Waste removal",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the process of digestion?",
@@ -549,7 +549,7 @@
     "B": "Moving food",
     "C": "Breaking down food",
     "D": "Storing food",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of erosion?",
@@ -557,7 +557,7 @@
     "B": "Material breakdown",
     "C": "Mountain building",
     "D": "Soil formation",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the process of evolution?",
@@ -573,7 +573,7 @@
     "B": "Individual change",
     "C": "Rapid change",
     "D": "No change",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the process of excretion?",
@@ -581,7 +581,7 @@
     "B": "Transport",
     "C": "Digestion",
     "D": "Absorption",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the process of fermentation?",
@@ -589,7 +589,7 @@
     "B": "Photosynthesis",
     "C": "Protein synthesis",
     "D": "Cell division",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the process of fertilization?",
@@ -597,7 +597,7 @@
     "B": "Seed dispersal",
     "C": "Cell division",
     "D": "Gamete fusion",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the process of germination?",
@@ -605,7 +605,7 @@
     "B": "Leaf development",
     "C": "Flower formation",
     "D": "Seed growth",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the process of homeostasis?",
@@ -621,7 +621,7 @@
     "B": "Dehydration",
     "C": "Evaporation",
     "D": "Freezing",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the process of meiosis for?",
@@ -637,7 +637,7 @@
     "B": "Body transformation",
     "C": "Energy production",
     "D": "Cell division",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the process of mitosis?",
@@ -645,7 +645,7 @@
     "B": "Protein synthesis",
     "C": "Energy production",
     "D": "Sexual reproduction",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the process of mutation?",
@@ -653,7 +653,7 @@
     "B": "Cell death",
     "C": "Cell growth",
     "D": "No change",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the process of neutralization?",
@@ -661,7 +661,7 @@
     "B": "Oxidation",
     "C": "Decomposition",
     "D": "Acid-base reaction",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the process of nuclear fusion?",
@@ -669,7 +669,7 @@
     "B": "Radioactive decay",
     "C": "Atom splitting",
     "D": "Electron transfer",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the process of osmosis?",
@@ -677,7 +677,7 @@
     "B": "Gas exchange",
     "C": "Active transport",
     "D": "Ion transport",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the process of osmosis?",
@@ -685,7 +685,7 @@
     "B": "Active transport",
     "C": "Water diffusion",
     "D": "Protein transport",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the process of oxidation?",
@@ -693,7 +693,7 @@
     "B": "Losing protons",
     "C": "Losing electrons",
     "D": "Gaining electrons",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the process of photosynthesis?",
@@ -701,7 +701,7 @@
     "B": "Breaking food",
     "C": "Making food",
     "D": "Moving nutrients",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of pollination?",
@@ -709,7 +709,7 @@
     "B": "Root growth",
     "C": "Pollen transfer",
     "D": "Seed dispersal",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of pollination?",
@@ -725,7 +725,7 @@
     "B": "Evaporation",
     "C": "Rain formation",
     "D": "Wind formation",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of protein synthesis?",
@@ -733,7 +733,7 @@
     "B": "Making proteins",
     "C": "Energy production",
     "D": "DNA replication",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the process of reduction?",
@@ -749,7 +749,7 @@
     "B": "Aging",
     "C": "Making offspring",
     "D": "Growing",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the process of respiration?",
@@ -757,7 +757,7 @@
     "B": "Food breakdown",
     "C": "Energy production",
     "D": "Waste removal",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the process of respiration?",
@@ -765,7 +765,7 @@
     "B": "Making food",
     "C": "Making proteins",
     "D": "Getting energy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the process of sublimation?",
@@ -773,7 +773,7 @@
     "B": "Solid to gas",
     "C": "Melting",
     "D": "Freezing",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the process of synthesis?",
@@ -781,7 +781,7 @@
     "B": "Breaking down",
     "C": "Building up",
     "D": "Transport",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the process of transpiration?",
@@ -797,7 +797,7 @@
     "B": "Evaporation",
     "C": "Condensation",
     "D": "Freezing",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the process of weathering?",
@@ -805,7 +805,7 @@
     "B": "Rock breakdown",
     "C": "Rock formation",
     "D": "Soil formation",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the role of chlorophyll?",
@@ -813,7 +813,7 @@
     "B": "Light absorption",
     "C": "Water transport",
     "D": "Energy storage",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the smallest unit of life?",
@@ -821,7 +821,7 @@
     "B": "Molecule",
     "C": "Cell",
     "D": "Tissue",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the speed of light?",
@@ -845,6 +845,6 @@
     "B": "Metamorphic",
     "C": "Sedimentary",
     "D": "Limestone",
-    "answer": "C"
+    "answer": "A"
   }
 ]

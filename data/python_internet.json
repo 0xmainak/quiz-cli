@@ -5,7 +5,7 @@
     "B": "application/javascript",
     "C": "text/json",
     "D": "application/json",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the default HTTP version used by requests?",
@@ -13,7 +13,7 @@
     "B": "HTTP/2",
     "C": "HTTP/1.1",
     "D": "HTTP/1.0",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the default port for HTTPS connections?",
@@ -21,7 +21,7 @@
     "B": "80",
     "C": "8080",
     "D": "443",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the default timeout for requests.get()?",
@@ -37,7 +37,7 @@
     "B": "None",
     "C": "[1,2,3]",
     "D": "data",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the output of urllib.parse.urlencode({'key': 'value', 'space': 'hello world'})?",
@@ -45,7 +45,7 @@
     "B": "key=value&space=hello world",
     "C": "key:value,space:hello world",
     "D": "key=value&space=hello+world",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the output of urlparse('http://example.com').scheme?",
@@ -53,7 +53,7 @@
     "B": "None",
     "C": "http://",
     "D": "example.com",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the output of urlparse('https://www.example.com:8080/path?key=value#fragment').port?",
@@ -61,7 +61,7 @@
     "B": "8080",
     "C": "None",
     "D": "443",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Accept header?",
@@ -93,7 +93,7 @@
     "B": "To validate range",
     "C": "To specify range",
     "D": "To request range",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Access-Control-Allow-Origin header?",
@@ -101,7 +101,7 @@
     "B": "For caching",
     "C": "For CORS",
     "D": "For authentication",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Age header?",
@@ -117,7 +117,7 @@
     "B": "To list allowed methods",
     "C": "To allow caching",
     "D": "To allow compression",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Cache-Control header?",
@@ -133,7 +133,7 @@
     "B": "To authenticate connection",
     "C": "To upgrade connection",
     "D": "To specify connection type",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Connection: keep-alive header?",
@@ -141,7 +141,7 @@
     "B": "To maintain persistent connections",
     "C": "To authenticate",
     "D": "To redirect",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Content-Disposition header?",
@@ -149,7 +149,7 @@
     "B": "To suggest filename",
     "C": "To specify encoding",
     "D": "To specify language",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Content-Encoding header?",
@@ -157,7 +157,7 @@
     "B": "To specify content type",
     "C": "To specify language",
     "D": "To specify character encoding",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Content-Language header?",
@@ -165,7 +165,7 @@
     "B": "To specify default language",
     "C": "To specify content language",
     "D": "To specify system language",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Content-Length header?",
@@ -173,7 +173,7 @@
     "B": "To specify encoding",
     "C": "To specify response size",
     "D": "To specify compression",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Content-Range header?",
@@ -181,7 +181,7 @@
     "B": "To specify time range",
     "C": "To specify byte range",
     "D": "To specify date range",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Cookie header?",
@@ -189,7 +189,7 @@
     "B": "To send cookies to server",
     "C": "To update cookies",
     "D": "To receive cookies",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the DNT header?",
@@ -197,7 +197,7 @@
     "B": "To request no tracking",
     "C": "To disable cookies",
     "D": "To enable privacy",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Date header?",
@@ -205,7 +205,7 @@
     "B": "To specify modified date",
     "C": "To specify creation date",
     "D": "To specify message date",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the ETag header?",
@@ -213,7 +213,7 @@
     "B": "For authentication",
     "C": "For redirection",
     "D": "For compression",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Expect header?",
@@ -229,7 +229,7 @@
     "B": "To specify redirect path",
     "C": "To track request path",
     "D": "To specify gateway path",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the HEAD HTTP method?",
@@ -237,7 +237,7 @@
     "B": "To delete headers",
     "C": "To update headers",
     "D": "To get full response",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Host header in HTTP requests?",
@@ -245,7 +245,7 @@
     "B": "To specify authentication",
     "C": "To specify the server's hostname",
     "D": "To specify the client's hostname",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the If-Match header?",
@@ -253,7 +253,7 @@
     "B": "For redirection",
     "C": "For authentication",
     "D": "For cache validation",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the If-Modified-Since header?",
@@ -261,7 +261,7 @@
     "B": "For cache validation",
     "C": "For redirection",
     "D": "For compression",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the If-None-Match header?",
@@ -269,7 +269,7 @@
     "B": "For cache validation",
     "C": "For authentication",
     "D": "For redirection",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Last-Modified header?",
@@ -285,7 +285,7 @@
     "B": "To specify referrer link",
     "C": "To specify base link",
     "D": "To specify redirect link",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Location header?",
@@ -293,7 +293,7 @@
     "B": "To specify referrer URL",
     "C": "To specify current URL",
     "D": "To specify redirect URL",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the OPTIONS HTTP method?",
@@ -301,7 +301,7 @@
     "B": "To retrieve data",
     "C": "To check available methods",
     "D": "To delete data",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Origin header?",
@@ -309,7 +309,7 @@
     "B": "For CORS",
     "C": "For authentication",
     "D": "For compression",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Pragma header?",
@@ -317,7 +317,7 @@
     "B": "To specify version",
     "C": "To specify method",
     "D": "To specify protocol",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Range header?",
@@ -325,7 +325,7 @@
     "B": "To specify byte range",
     "C": "To request partial content",
     "D": "To specify content range",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Referer header?",
@@ -333,7 +333,7 @@
     "B": "To authenticate",
     "C": "To indicate previous page",
     "D": "To specify content type",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the Retry-After header?",
@@ -341,7 +341,7 @@
     "B": "To specify retry time",
     "C": "To specify retry delay",
     "D": "To specify retry count",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Server header?",
@@ -349,7 +349,7 @@
     "B": "To identify proxy software",
     "C": "To identify gateway software",
     "D": "To identify server software",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the Trailer header?",
@@ -373,7 +373,7 @@
     "B": "To upgrade connection",
     "C": "To request protocol upgrade",
     "D": "To upgrade version",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of the User-Agent header?",
@@ -381,7 +381,7 @@
     "B": "To identify the client application",
     "C": "To authenticate",
     "D": "To specify the content type",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the Vary header?",
@@ -389,7 +389,7 @@
     "B": "To specify content variations",
     "C": "To specify language variations",
     "D": "To specify cache variations",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the Via header?",
@@ -397,7 +397,7 @@
     "B": "To track message forwards",
     "C": "To specify gateway",
     "D": "To specify routing",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of the WWW-Authenticate header?",
@@ -405,7 +405,7 @@
     "B": "To verify authentication",
     "C": "To remove authentication",
     "D": "To provide authentication",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the Warning header?",
@@ -413,7 +413,7 @@
     "B": "To specify debug message",
     "C": "To specify error message",
     "D": "To provide warning message",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the X-Forwarded-For header?",
@@ -429,7 +429,7 @@
     "B": "To parse URLs",
     "C": "To store cookies across requests",
     "D": "To encode JSON data",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "Which HTTP method is idempotent?",
@@ -437,7 +437,7 @@
     "B": "PATCH",
     "C": "POST",
     "D": "GET",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "Which HTTP method is not idempotent?",
@@ -445,7 +445,7 @@
     "B": "GET",
     "C": "PUT",
     "D": "POST",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "Which HTTP method is used to partially update a resource?",
@@ -453,7 +453,7 @@
     "B": "PUT",
     "C": "PATCH",
     "D": "POST",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "question": "Which HTTP method should be used to create a new resource?",
@@ -461,7 +461,7 @@
     "B": "GET",
     "C": "PUT",
     "D": "POST",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "Which HTTP method should be used to update a resource?",
@@ -469,7 +469,7 @@
     "B": "GET",
     "C": "POST",
     "D": "PUT",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates I'm a teapot?",
@@ -477,7 +477,7 @@
     "B": "419",
     "C": "417",
     "D": "418",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates URI too long?",
@@ -485,7 +485,7 @@
     "B": "412",
     "C": "413",
     "D": "414",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates a bad request?",
@@ -525,7 +525,7 @@
     "B": "416",
     "C": "417",
     "D": "415",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which HTTP status code indicates forbidden access?",
@@ -533,7 +533,7 @@
     "B": "401",
     "C": "400",
     "D": "403",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates gateway timeout?",
@@ -541,7 +541,7 @@
     "B": "503",
     "C": "502",
     "D": "505",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "question": "Which HTTP status code indicates gone?",
@@ -549,7 +549,7 @@
     "B": "411",
     "C": "408",
     "D": "410",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates length required?",
@@ -565,7 +565,7 @@
     "B": "419",
     "C": "421",
     "D": "420",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which HTTP status code indicates not implemented?",
@@ -573,7 +573,7 @@
     "B": "501",
     "C": "500",
     "D": "503",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which HTTP status code indicates payload too large?",
@@ -581,7 +581,7 @@
     "B": "413",
     "C": "414",
     "D": "412",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "Which HTTP status code indicates precondition failed?",
@@ -605,7 +605,7 @@
     "B": "407",
     "C": "406",
     "D": "409",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "question": "Which HTTP status code indicates service unavailable?",
@@ -613,7 +613,7 @@
     "B": "501",
     "C": "500",
     "D": "503",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates too many requests?",
@@ -629,7 +629,7 @@
     "B": "404",
     "C": "403",
     "D": "401",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates unprocessable entity?",
@@ -637,7 +637,7 @@
     "B": "420",
     "C": "423",
     "D": "422",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code indicates unsupported media type?",
@@ -645,7 +645,7 @@
     "B": "416",
     "C": "413",
     "D": "415",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "Which HTTP status code range represents server errors?",
@@ -653,7 +653,7 @@
     "B": "5xx",
     "C": "2xx",
     "D": "4xx",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which HTTP status code represents a redirect?",
@@ -677,7 +677,7 @@
     "B": "bind()",
     "C": "listen()",
     "D": "connect()",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "Which parameter in requests is used to follow redirects?",
@@ -685,7 +685,7 @@
     "B": "follow",
     "C": "allow_redirects",
     "D": "follow_redirects",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which parameter in requests is used to send client certificates?",
@@ -709,7 +709,7 @@
     "B": "headers",
     "C": "custom_headers",
     "D": "http_headers",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "Which parameter in requests is used to set request timeout?",
@@ -717,7 +717,7 @@
     "B": "timeout",
     "C": "delay",
     "D": "time",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "Which parameter in requests is used to specify proxy?",
@@ -725,7 +725,7 @@
     "B": "proxy_url",
     "C": "proxy",
     "D": "proxies",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "question": "Which parameter in requests is used to stream response?",
@@ -733,7 +733,7 @@
     "B": "stream",
     "C": "download",
     "D": "streaming",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "Which parameter in requests is used to verify SSL certificates?",
@@ -741,7 +741,7 @@
     "B": "certificate",
     "C": "verify",
     "D": "ssl",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "Which parameter in requests.get() is used to add query parameters?",
@@ -749,7 +749,7 @@
     "B": "params",
     "C": "json",
     "D": "data",
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "Which parameter in requests.post() is used to send form data?",
@@ -781,7 +781,7 @@
     "B": "receive()",
     "C": "get()",
     "D": "recv()",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which socket function is used to send data?",
@@ -789,7 +789,7 @@
     "B": "write()",
     "C": "transmit()",
     "D": "put()",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "question": "Which socket function is used to set socket options?",
@@ -797,7 +797,7 @@
     "B": "set()",
     "C": "setopt()",
     "D": "setoption()",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Which socket option enables keep-alive?",
@@ -813,7 +813,7 @@
     "B": "SO_LINGER",
     "C": "SO_BROADCAST",
     "D": "SO_KEEPALIVE",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "question": "Which socket option sets the buffer size?",
@@ -829,7 +829,7 @@
     "B": "SO_REUSEADDR",
     "C": "SO_BROADCAST",
     "D": "SO_KEEPALIVE",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "Which socket option sets the reuse address flag?",
@@ -837,7 +837,7 @@
     "B": "SO_KEEPALIVE",
     "C": "SO_REUSEPORT",
     "D": "SO_REUSEADDR",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "question": "Which socket option sets the timeout?",
