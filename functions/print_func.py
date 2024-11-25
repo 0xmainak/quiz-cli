@@ -11,7 +11,7 @@ def print_topics() -> None:
 
     print("-------------------------------------")
 
-    with open("./data/topics.json", "r") as data:
+    with open("./config/topics.json", "r") as data:
         topics = json.load(data)
         
         for i in topics:

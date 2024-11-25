@@ -15,7 +15,7 @@ def get_answer(question: list) -> str:
 
 def get_topic(index: str) -> str:
 
-    with open("./data/topics.json", "r") as data:
+    with open("./config/topics.json", "r") as data:
         topics = json.load(data)
 
     return topics[index][1]
