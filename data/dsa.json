@@ -1,485 +1,482 @@
 [
-    {
-      "question": "What is the time complexity of AVL tree insertion?",
-      "A": "O(1)",
-      "B": "O(log n)", 
-      "C": "O(n)",
-      "D": "O(n log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which algorithm is used for minimum spanning tree?",
-      "A": "Dijkstra's",
-      "B": "Floyd-Warshall",
-      "C": "Kruskal's",
-      "D": "Bellman-Ford", 
-      "answer": "C"
-    },
-    {
-      "question": "What is the space complexity of Floyd-Warshall algorithm?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(V^2)",
-      "D": "O(V + E)",
-      "answer": "C"
-    },
-    {
-      "question": "Which data structure is used for implementing graphs?",
-      "A": "Arrays only",
-      "B": "Linked Lists only", 
-      "C": "Both A and B",
-      "D": "Neither A nor B",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of heap sort?",
-      "A": "O(n)",
-      "B": "O(n log n)",
-      "C": "O(n^2)",
-      "D": "O(log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is not a divide and conquer algorithm?",
-      "A": "Merge Sort",
-      "B": "Quick Sort",
-      "C": "Bubble Sort",
-      "D": "Binary Search",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of heapify operation?",
-      "A": "O(1)", 
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is not a graph representation?",
-      "A": "Adjacency Matrix",
-      "B": "Adjacency List",
-      "C": "Edge List",
-      "D": "Node Stack",
-      "answer": "D"
-    },
-    {
-      "question": "What is the space complexity of DFS using recursion?",
-      "A": "O(1)",
-      "B": "O(V)",
-      "C": "O(E)", 
-      "D": "O(V + E)",
-      "answer": "B"
-    },
-    {
-      "question": "Which sorting algorithm is most efficient for nearly sorted data?",
-      "A": "Quick Sort",
-      "B": "Merge Sort",
-      "C": "Insertion Sort",
-      "D": "Selection Sort",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of finding an element in a BST?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    },
-    {
-      "question": "Which data structure is best for implementing a cache?",
-      "A": "Array",
-      "B": "Linked List",
-      "C": "Hash Table",
-      "D": "Stack",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of union operation on disjoint sets?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "B"
-    },
-    {
-      "question": "Which algorithm is used for finding shortest paths in a weighted graph?",
-      "A": "BFS",
-      "B": "DFS",
-      "C": "Dijkstra's",
-      "D": "Prim's",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of counting sort?",
-      "A": "O(n + k)",
-      "B": "O(n log n)",
-      "C": "O(n^2)",
-      "D": "O(n)",
-      "answer": "A"
-    },
-    {
-      "question": "Which tree traversal visits root first?",
-      "A": "Inorder",
-      "B": "Preorder",
-      "C": "Postorder",
-      "D": "Level order",
-      "answer": "B"
-    },
-    {
-      "question": "What is the space complexity of iterative DFS?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(1)",
-      "D": "O(V + E)",
-      "answer": "A"
-    },
-    {
-      "question": "Which data structure is used in breadth-first traversal?",
-      "A": "Stack",
-      "B": "Queue",
-      "C": "Array",
-      "D": "Tree",
-      "answer": "B"
-    },
-    {
-      "question": "What is the time complexity of finding cycle in a graph using DFS?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(V + E)",
-      "D": "O(V * E)",
-      "answer": "C"
-    },
-    {
-      "question": "Which sorting algorithm is most stable?",
-      "A": "Quick Sort",
-      "B": "Merge Sort",
-      "C": "Heap Sort",
-      "D": "Selection Sort",
-      "answer": "B"
-    },
-    {
-      "question": "What is the time complexity of AVL tree insertion?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which algorithm is used for minimum spanning tree?",
-      "A": "Dijkstra's",
-      "B": "Floyd-Warshall",
-      "C": "Kruskal's",
-      "D": "Bellman-Ford",
-      "answer": "C"
-    },
-    {
-      "question": "What is the space complexity of Floyd-Warshall algorithm?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(V^2)",
-      "D": "O(V + E)",
-      "answer": "C"
-    },
-    {
-      "question": "Which data structure is used for implementing graphs?",
-      "A": "Arrays only",
-      "B": "Linked Lists only",
-      "C": "Both A and B",
-      "D": "Neither A nor B",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of heap sort?",
-      "A": "O(n)",
-      "B": "O(n log n)",
-      "C": "O(n^2)",
-      "D": "O(log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is not a divide and conquer algorithm?",
-      "A": "Merge Sort",
-      "B": "Quick Sort",
-      "C": "Bubble Sort",
-      "D": "Binary Search",
-      "answer": "C"
-    }
-    ,
-    {
-      "question": "What is the worst-case time complexity of quicksort?",
-      "A": "O(n)",
-      "B": "O(n log n)",
-      "C": "O(n^2)", 
-      "D": "O(2^n)",
-      "answer": "C"
-    },
-    {
-      "question": "Which traversal visits the root node last?",
-      "A": "Pre-order",
-      "B": "In-order",
-      "C": "Post-order",
-      "D": "Level-order",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of linear search?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    },
-    {
-      "question": "Which data structure follows LIFO principle?",
-      "A": "Queue",
-      "B": "Stack",
-      "C": "Linked List",
-      "D": "Tree",
-      "answer": "B"
-    },
-    {
-      "question": "What is the space complexity of merge sort?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    },
-    {
-      "question": "Which of these is not a balanced tree?",
-      "A": "AVL Tree",
-      "B": "Red-Black Tree",
-      "C": "Binary Search Tree",
-      "D": "B-Tree",
-      "answer": "C"
-    }
-    ,
-    {
-      "question": "What is the time complexity of binary search?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)", 
-      "D": "O(n log n)",
-      "answer": "B"
-    },
-    {
-      "question": "Which sorting algorithm has the best average case time complexity?",
-      "A": "Bubble Sort",
-      "B": "Selection Sort", 
-      "C": "Insertion Sort",
-      "D": "Quick Sort",
-      "answer": "D"
-    },
-    {
-      "question": "What is the space complexity of BFS?",
-      "A": "O(1)",
-      "B": "O(V)",
-      "C": "O(E)",
-      "D": "O(V + E)",
-      "answer": "B"
-    },
-    {
-      "question": "Which data structure is most efficient for implementing a priority queue?",
-      "A": "Array",
-      "B": "Linked List",
-      "C": "Binary Heap",
-      "D": "Stack",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of array insertion at beginning?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    }
-    ,
-    {
-      "question": "What is the worst-case time complexity of quicksort?",
-      "A": "O(n)",
-      "B": "O(log n)",
-      "C": "O(n log n)",
-      "D": "O(n^2)",
-      "answer": "D"
-    },
-    {
-      "question": "Which data structure is used to implement recursion?",
-      "A": "Queue",
-      "B": "Stack",
-      "C": "Array",
-      "D": "Linked List",
-      "answer": "B"
-    },
-    {
-      "question": "What is the time complexity of linear search?",
-      "A": "O(1)", 
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    },
-    {
-      "question": "Which of these is not a type of tree traversal?",
-      "A": "Inorder",
-      "B": "Preorder", 
-      "C": "Postorder",
-      "D": "Linearorder",
-      "answer": "D"
-    },
-    {
-      "question": "What is the space complexity of merge sort?",
-      "A": "O(1)",
-      "B": "O(log n)", 
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "C"
-    },
-    {
-      "question": "Which of these is not a search algorithm?",
-      "A": "Linear Search",
-      "B": "Binary Search",
-      "C": "Bubble Sort",
-      "D": "Depth First Search",
-      "answer": "C"
-    },
-    {
-      "question": "What is the best case time complexity of bubble sort?",
-      "A": "O(1)",
-      "B": "O(n)",
-      "C": "O(n log n)",
-      "D": "O(n^2)",
-      "answer": "B"
-    },
-    {
-      "question": "Which data structure follows LIFO principle?",
-      "A": "Queue",
-      "B": "Stack",
-      "C": "Tree",
-      "D": "Graph",
-      "answer": "B"
-    },
-    {
-      "question": "What is the time complexity of accessing an element in a hash table?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "A"
-    },
-    {
-      "question": "Which sorting algorithm is in-place?",
-      "A": "Merge Sort",
-      "B": "Quick Sort",
-      "C": "Counting Sort",
-      "D": "Radix Sort",
-      "answer": "B"
-    },
-    {
-      "question": "What is the maximum height of a Red-Black tree with n nodes?",
-      "A": "log n",
-      "B": "2 log n",
-      "C": "n/2",
-      "D": "n",
-      "answer": "B"
-    },
-    {
-      "question": "Which data structure is best for implementing a dictionary?",
-      "A": "Array",
-      "B": "Linked List",
-      "C": "Hash Table",
-      "D": "Stack",
-      "answer": "C"
-    },
-    {
-      "question": "What is the time complexity of depth-first search?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(V + E)",
-      "D": "O(V * E)",
-      "answer": "C"
-    },
-    {
-      "question": "Which of these is not a property of a binary search tree?",
-      "A": "Left subtree has smaller elements",
-      "B": "Right subtree has larger elements",
-      "C": "Duplicates are allowed",
-      "D": "All levels must be completely filled",
-      "answer": "D"
-    },
-    {
-      "question": "What is the time complexity of finding the minimum element in a min heap?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n log n)",
-      "answer": "A"
-    },
-    {
-      "question": "Which algorithm is used for topological sorting?",
-      "A": "Breadth First Search",
-      "B": "Depth First Search",
-      "C": "Dijkstra's Algorithm",
-      "D": "Floyd Warshall Algorithm",
-      "answer": "B"
-    },
-    {
-      "question": "What is the space complexity of quicksort?",
-      "A": "O(1)",
-      "B": "O(log n)",
-      "C": "O(n)",
-      "D": "O(n^2)",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is not a type of hash collision resolution?",
-      "A": "Linear Probing",
-      "B": "Quadratic Probing",
-      "C": "Chaining",
-      "D": "Binary Search",
-      "answer": "D"
-    },
-    {
-      "question": "What is the time complexity of matrix multiplication?",
-      "A": "O(n)",
-      "B": "O(n^2)",
-      "C": "O(n^3)",
-      "D": "O(2^n)",
-      "answer": "C"
-    },
-    {
-      "question": "Which data structure is used in breadth first search?",
-      "A": "Stack",
-      "B": "Queue",
-      "C": "Array",
-      "D": "Tree",
-      "answer": "B"
-    },
-    {
-      "question": "What is the time complexity of counting sort?",
-      "A": "O(n)",
-      "B": "O(n + k)",
-      "C": "O(n log n)",
-      "D": "O(n^2)",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is not a greedy algorithm?",
-      "A": "Dijkstra's Algorithm",
-      "B": "Prim's Algorithm",
-      "C": "Floyd Warshall Algorithm",
-      "D": "Kruskal's Algorithm",
-      "answer": "C"
-    },
-    {
-      "question": "What is the space complexity of breadth first search?",
-      "A": "O(V)",
-      "B": "O(E)",
-      "C": "O(V + E)",
-      "D": "O(V * E)",
-      "answer": "A"
-    }
-  ]
+  {
+    "question": "What is the best case time complexity of bubble sort?",
+    "A": "O(n^2)",
+    "B": "O(n)",
+    "C": "O(1)",
+    "D": "O(n log n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the maximum height of a Red-Black tree with n nodes?",
+    "A": "2 log n",
+    "B": "n/2",
+    "C": "n",
+    "D": "log n",
+    "answer": "C"
+  },
+  {
+    "question": "What is the space complexity of BFS?",
+    "A": "O(1)",
+    "B": "O(V + E)",
+    "C": "O(E)",
+    "D": "O(V)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the space complexity of DFS using recursion?",
+    "A": "O(V + E)",
+    "B": "O(1)",
+    "C": "O(E)",
+    "D": "O(V)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the space complexity of Floyd-Warshall algorithm?",
+    "A": "O(E)",
+    "B": "O(V)",
+    "C": "O(V^2)",
+    "D": "O(V + E)",
+    "answer": "B"
+  },
+  {
+    "question": "What is the space complexity of Floyd-Warshall algorithm?",
+    "A": "O(V)",
+    "B": "O(V + E)",
+    "C": "O(E)",
+    "D": "O(V^2)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the space complexity of breadth first search?",
+    "A": "O(V)",
+    "B": "O(V + E)",
+    "C": "O(V * E)",
+    "D": "O(E)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the space complexity of iterative DFS?",
+    "A": "O(E)",
+    "B": "O(V)",
+    "C": "O(V + E)",
+    "D": "O(1)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the space complexity of merge sort?",
+    "A": "O(log n)",
+    "B": "O(n)",
+    "C": "O(n^2)",
+    "D": "O(1)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the space complexity of merge sort?",
+    "A": "O(n)",
+    "B": "O(n^2)",
+    "C": "O(1)",
+    "D": "O(log n)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the space complexity of quicksort?",
+    "A": "O(log n)",
+    "B": "O(n)",
+    "C": "O(1)",
+    "D": "O(n^2)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of AVL tree insertion?",
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(n log n)",
+    "D": "O(log n)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of AVL tree insertion?",
+    "A": "O(log n)",
+    "B": "O(1)",
+    "C": "O(n log n)",
+    "D": "O(n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of accessing an element in a hash table?",
+    "A": "O(n)",
+    "B": "O(n^2)",
+    "C": "O(1)",
+    "D": "O(log n)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of array insertion at beginning?",
+    "A": "O(log n)",
+    "B": "O(n)",
+    "C": "O(1)",
+    "D": "O(n^2)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of binary search?",
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n log n)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the time complexity of counting sort?",
+    "A": "O(n)",
+    "B": "O(n^2)",
+    "C": "O(n + k)",
+    "D": "O(n log n)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of counting sort?",
+    "A": "O(n^2)",
+    "B": "O(n + k)",
+    "C": "O(n)",
+    "D": "O(n log n)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the time complexity of depth-first search?",
+    "A": "O(V * E)",
+    "B": "O(E)",
+    "C": "O(V + E)",
+    "D": "O(V)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of finding an element in a BST?",
+    "A": "O(log n)",
+    "B": "O(n^2)",
+    "C": "O(1)",
+    "D": "O(n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of finding cycle in a graph using DFS?",
+    "A": "O(V + E)",
+    "B": "O(V * E)",
+    "C": "O(E)",
+    "D": "O(V)",
+    "answer": "B"
+  },
+  {
+    "question": "What is the time complexity of finding the minimum element in a min heap?",
+    "A": "O(n log n)",
+    "B": "O(n)",
+    "C": "O(1)",
+    "D": "O(log n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of heap sort?",
+    "A": "O(n)",
+    "B": "O(n^2)",
+    "C": "O(n log n)",
+    "D": "O(log n)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the time complexity of heap sort?",
+    "A": "O(n)",
+    "B": "O(log n)",
+    "C": "O(n^2)",
+    "D": "O(n log n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the time complexity of heapify operation?",
+    "A": "O(n log n)",
+    "B": "O(n)",
+    "C": "O(log n)",
+    "D": "O(1)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of linear search?",
+    "A": "O(log n)",
+    "B": "O(n)",
+    "C": "O(1)",
+    "D": "O(n^2)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the time complexity of linear search?",
+    "A": "O(n)",
+    "B": "O(1)",
+    "C": "O(log n)",
+    "D": "O(n^2)",
+    "answer": "D"
+  },
+  {
+    "question": "What is the time complexity of matrix multiplication?",
+    "A": "O(2^n)",
+    "B": "O(n)",
+    "C": "O(n^3)",
+    "D": "O(n^2)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the time complexity of union operation on disjoint sets?",
+    "A": "O(log n)",
+    "B": "O(n^2)",
+    "C": "O(1)",
+    "D": "O(n)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the worst-case time complexity of quicksort?",
+    "A": "O(n log n)",
+    "B": "O(2^n)",
+    "C": "O(n^2)",
+    "D": "O(n)",
+    "answer": "C"
+  },
+  {
+    "question": "What is the worst-case time complexity of quicksort?",
+    "A": "O(n^2)",
+    "B": "O(log n)",
+    "C": "O(n log n)",
+    "D": "O(n)",
+    "answer": "A"
+  },
+  {
+    "question": "Which algorithm is used for finding shortest paths in a weighted graph?",
+    "A": "Prim's",
+    "B": "BFS",
+    "C": "DFS",
+    "D": "Dijkstra's",
+    "answer": "D"
+  },
+  {
+    "question": "Which algorithm is used for minimum spanning tree?",
+    "A": "Dijkstra's",
+    "B": "Floyd-Warshall",
+    "C": "Kruskal's",
+    "D": "Bellman-Ford",
+    "answer": "D"
+  },
+  {
+    "question": "Which algorithm is used for minimum spanning tree?",
+    "A": "Floyd-Warshall",
+    "B": "Kruskal's",
+    "C": "Dijkstra's",
+    "D": "Bellman-Ford",
+    "answer": "C"
+  },
+  {
+    "question": "Which algorithm is used for topological sorting?",
+    "A": "Dijkstra's Algorithm",
+    "B": "Floyd Warshall Algorithm",
+    "C": "Depth First Search",
+    "D": "Breadth First Search",
+    "answer": "C"
+  },
+  {
+    "question": "Which data structure follows LIFO principle?",
+    "A": "Linked List",
+    "B": "Queue",
+    "C": "Tree",
+    "D": "Stack",
+    "answer": "A"
+  },
+  {
+    "question": "Which data structure follows LIFO principle?",
+    "A": "Queue",
+    "B": "Tree",
+    "C": "Stack",
+    "D": "Graph",
+    "answer": "D"
+  },
+  {
+    "question": "Which data structure is best for implementing a cache?",
+    "A": "Linked List",
+    "B": "Stack",
+    "C": "Hash Table",
+    "D": "Array",
+    "answer": "B"
+  },
+  {
+    "question": "Which data structure is best for implementing a dictionary?",
+    "A": "Array",
+    "B": "Stack",
+    "C": "Linked List",
+    "D": "Hash Table",
+    "answer": "D"
+  },
+  {
+    "question": "Which data structure is most efficient for implementing a priority queue?",
+    "A": "Stack",
+    "B": "Array",
+    "C": "Binary Heap",
+    "D": "Linked List",
+    "answer": "A"
+  },
+  {
+    "question": "Which data structure is used for implementing graphs?",
+    "A": "Arrays only",
+    "B": "Neither A nor B",
+    "C": "Linked Lists only",
+    "D": "Both A and B",
+    "answer": "A"
+  },
+  {
+    "question": "Which data structure is used for implementing graphs?",
+    "A": "Linked Lists only",
+    "B": "Both A and B",
+    "C": "Arrays only",
+    "D": "Neither A nor B",
+    "answer": "D"
+  },
+  {
+    "question": "Which data structure is used in breadth first search?",
+    "A": "Queue",
+    "B": "Array",
+    "C": "Stack",
+    "D": "Tree",
+    "answer": "C"
+  },
+  {
+    "question": "Which data structure is used in breadth-first traversal?",
+    "A": "Array",
+    "B": "Queue",
+    "C": "Tree",
+    "D": "Stack",
+    "answer": "C"
+  },
+  {
+    "question": "Which data structure is used to implement recursion?",
+    "A": "Linked List",
+    "B": "Stack",
+    "C": "Queue",
+    "D": "Array",
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is not a balanced tree?",
+    "A": "B-Tree",
+    "B": "AVL Tree",
+    "C": "Binary Search Tree",
+    "D": "Red-Black Tree",
+    "answer": "B"
+  },
+  {
+    "question": "Which of these is not a divide and conquer algorithm?",
+    "A": "Bubble Sort",
+    "B": "Binary Search",
+    "C": "Merge Sort",
+    "D": "Quick Sort",
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is not a divide and conquer algorithm?",
+    "A": "Bubble Sort",
+    "B": "Binary Search",
+    "C": "Merge Sort",
+    "D": "Quick Sort",
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is not a graph representation?",
+    "A": "Edge List",
+    "B": "Node Stack",
+    "C": "Adjacency List",
+    "D": "Adjacency Matrix",
+    "answer": "B"
+  },
+  {
+    "question": "Which of these is not a greedy algorithm?",
+    "A": "Dijkstra's Algorithm",
+    "B": "Floyd Warshall Algorithm",
+    "C": "Prim's Algorithm",
+    "D": "Kruskal's Algorithm",
+    "answer": "C"
+  },
+  {
+    "question": "Which of these is not a property of a binary search tree?",
+    "A": "All levels must be completely filled",
+    "B": "Left subtree has smaller elements",
+    "C": "Right subtree has larger elements",
+    "D": "Duplicates are allowed",
+    "answer": "D"
+  },
+  {
+    "question": "Which of these is not a search algorithm?",
+    "A": "Binary Search",
+    "B": "Bubble Sort",
+    "C": "Depth First Search",
+    "D": "Linear Search",
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is not a type of hash collision resolution?",
+    "A": "Linear Probing",
+    "B": "Chaining",
+    "C": "Quadratic Probing",
+    "D": "Binary Search",
+    "answer": "B"
+  },
+  {
+    "question": "Which of these is not a type of tree traversal?",
+    "A": "Inorder",
+    "B": "Linearorder",
+    "C": "Postorder",
+    "D": "Preorder",
+    "answer": "B"
+  },
+  {
+    "question": "Which sorting algorithm has the best average case time complexity?",
+    "A": "Selection Sort",
+    "B": "Insertion Sort",
+    "C": "Bubble Sort",
+    "D": "Quick Sort",
+    "answer": "B"
+  },
+  {
+    "question": "Which sorting algorithm is in-place?",
+    "A": "Counting Sort",
+    "B": "Quick Sort",
+    "C": "Radix Sort",
+    "D": "Merge Sort",
+    "answer": "A"
+  },
+  {
+    "question": "Which sorting algorithm is most efficient for nearly sorted data?",
+    "A": "Selection Sort",
+    "B": "Quick Sort",
+    "C": "Insertion Sort",
+    "D": "Merge Sort",
+    "answer": "C"
+  },
+  {
+    "question": "Which sorting algorithm is most stable?",
+    "A": "Merge Sort",
+    "B": "Selection Sort",
+    "C": "Quick Sort",
+    "D": "Heap Sort",
+    "answer": "C"
+  },
+  {
+    "question": "Which traversal visits the root node last?",
+    "A": "Level-order",
+    "B": "Pre-order",
+    "C": "In-order",
+    "D": "Post-order",
+    "answer": "D"
+  },
+  {
+    "question": "Which tree traversal visits root first?",
+    "A": "Inorder",
+    "B": "Level order",
+    "C": "Preorder",
+    "D": "Postorder",
+    "answer": "C"
+  }
+]
