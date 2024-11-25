@@ -1,882 +1,882 @@
 [
-    {
-      "question": "What is supervised learning?",
-      "A": "Learning without labeled data",
-      "B": "Learning with labeled training data",
-      "C": "Learning through reinforcement",
-      "D": "Learning through clustering",
-      "answer": "B"
-    },
-    {
-      "question": "Which of these is a classification algorithm?",
-      "A": "Linear Regression",
-      "B": "K-means",
-      "C": "Random Forest",
-      "D": "Principal Component Analysis",
-      "answer": "C"
-    },
-    {
-      "question": "What is the purpose of cross-validation?",
-      "A": "To clean data",
-      "B": "To evaluate model performance",
-      "C": "To visualize results",
-      "D": "To compress data",
-      "answer": "B"
-    },
-    {
-      "question": "What is overfitting?",
-      "A": "Model performs well on training data but poorly on new data",
-      "B": "Model performs poorly on all data",
-      "C": "Model is too simple",
-      "D": "Model trains too quickly",
-      "answer": "A"
-    },
-    {
-      "question": "Which metric is used for regression problems?",
-      "A": "Accuracy",
-      "B": "Precision",
-      "C": "Mean Squared Error",
-      "D": "F1 Score",
-      "answer": "C"
-    },
-    {
-      "question": "What is gradient descent used for?",
-      "A": "Data preprocessing",
-      "B": "Model optimization",
-      "C": "Feature selection",
-      "D": "Data visualization",
-      "answer": "B"
-    },
-    {
-      "question": "What is a neural network activation function?",
-      "A": "Loss function",
-      "B": "Learning rate",
-      "C": "Non-linear transformation",
-      "D": "Weight initialization",
-      "answer": "C"
-    },
-    {
-      "question": "What is the purpose of regularization?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Increase model complexity",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is K-means used for?",
-      "A": "Classification",
-      "B": "Regression",
-      "C": "Clustering",
-      "D": "Dimensionality reduction",
-      "answer": "C"
-    },
-    {
-      "question": "What is feature scaling?",
-      "A": "Adding features",
-      "B": "Removing features",
-      "C": "Normalizing feature values",
-      "D": "Combining features",
-      "answer": "C"
-    },
-    {
-      "question": "What is a confusion matrix used for?",
-      "A": "Visualizing data",
-      "B": "Evaluating classification models",
-      "C": "Feature selection",
-      "D": "Data preprocessing",
-      "answer": "B"
-    },
-    {
-      "question": "What is dropout in neural networks?",
-      "A": "Learning rate decay",
-      "B": "Regularization technique",
-      "C": "Activation function",
-      "D": "Loss function",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of the train-test split?",
-      "A": "Speed up training",
-      "B": "Evaluate model performance",
-      "C": "Reduce data size",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is ensemble learning?",
-      "A": "Using single model",
-      "B": "Combining multiple models",
-      "C": "Data cleaning",
-      "D": "Feature extraction",
-      "answer": "B"
-    },
-    {
-      "question": "What is backpropagation?",
-      "A": "Forward pass calculation",
-      "B": "Weight initialization",
-      "C": "Gradient calculation and weight updates",
-      "D": "Data preprocessing",
-      "answer": "C"
-    },
-    {
-      "question": "What is bias in machine learning?",
-      "A": "Model's tendency to consistently learn wrong patterns",
-      "B": "Random error",
-      "C": "Training data size",
-      "D": "Learning rate",
-      "answer": "A"
-    },
-    {
-      "question": "What is variance in machine learning?",
-      "A": "Model complexity",
-      "B": "Model's sensitivity to training data fluctuations",
-      "C": "Learning rate",
-      "D": "Batch size",
-      "answer": "B"
-    },
-    {
-      "question": "What is batch normalization?",
-      "A": "Data preprocessing",
-      "B": "Regularization technique",
-      "C": "Loss function",
-      "D": "Activation function",
-      "answer": "B"
-    },
-    {
-      "question": "What is a decision tree?",
-      "A": "Neural network type",
-      "B": "Tree-structured classifier",
-      "C": "Clustering algorithm",
-      "D": "Regression technique",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of the learning rate?",
-      "A": "Control model complexity",
-      "B": "Control gradient descent step size",
-      "C": "Control data preprocessing",
-      "D": "Control feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is unsupervised learning?",
-      "A": "Learning with labeled data",
-      "B": "Learning without labeled data",
-      "C": "Reinforcement learning",
-      "D": "Transfer learning",
-      "answer": "B"
-    },
-    {
-      "question": "What is a convolutional neural network used for?",
-      "A": "Text processing",
-      "B": "Image processing",
-      "C": "Time series analysis",
-      "D": "Tabular data",
-      "answer": "B"
-    },
-    {
-      "question": "What is precision in classification?",
-      "A": "True positives / (True positives + False positives)",
-      "B": "True positives / (True positives + False negatives)",
-      "C": "Overall accuracy",
-      "D": "Error rate",
-      "answer": "A"
-    },
-    {
-      "question": "What is recall in classification?",
-      "A": "True positives / (True positives + False positives)",
-      "B": "True positives / (True positives + False negatives)",
-      "C": "Overall accuracy",
-      "D": "Error rate",
-      "answer": "B"
-    },
-    {
-      "question": "What is PCA used for?",
-      "A": "Classification",
-      "B": "Regression",
-      "C": "Dimensionality reduction",
-      "D": "Clustering",
-      "answer": "C"
-    },
-    {
-      "question": "What is a support vector machine?",
-      "A": "Clustering algorithm",
-      "B": "Classification algorithm",
-      "C": "Regression algorithm",
-      "D": "Dimensionality reduction algorithm",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of early stopping?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Increase model complexity",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is transfer learning?",
-      "A": "Training from scratch",
-      "B": "Using pre-trained models",
-      "C": "Data augmentation",
-      "D": "Model compression",
-      "answer": "B"
-    },
-    {
-      "question": "What is data augmentation?",
-      "A": "Data cleaning",
-      "B": "Creating synthetic training data",
-      "C": "Feature selection",
-      "D": "Model optimization",
-      "answer": "B"
-    },
-    {
-      "question": "What is a recurrent neural network used for?",
-      "A": "Image processing",
-      "B": "Sequence data",
-      "C": "Tabular data",
-      "D": "Dimensionality reduction",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of max pooling?",
-      "A": "Increase features",
-      "B": "Reduce dimensionality",
-      "C": "Add non-linearity",
-      "D": "Initialize weights",
-      "answer": "B"
-    },
-    {
-      "question": "What is bagging?",
-      "A": "Feature selection",
-      "B": "Ensemble method",
-      "C": "Activation function",
-      "D": "Loss function",
-      "answer": "B"
-    },
-    {
-      "question": "What is boosting?",
-      "A": "Feature selection",
-      "B": "Ensemble method",
-      "C": "Activation function",
-      "D": "Loss function",
-      "answer": "B"
-    },
-    {
-      "question": "What is L1 regularization?",
-      "A": "Adding squared weights penalty",
-      "B": "Adding absolute weights penalty",
-      "C": "Feature scaling",
-      "D": "Data normalization",
-      "answer": "B"
-    },
-    {
-      "question": "What is L2 regularization?",
-      "A": "Adding squared weights penalty",
-      "B": "Adding absolute weights penalty",
-      "C": "Feature scaling",
-      "D": "Data normalization",
-      "answer": "A"
-    },
-    {
-      "question": "What is the vanishing gradient problem?",
-      "A": "Too fast training",
-      "B": "Gradients becoming too small",
-      "C": "Memory overflow",
-      "D": "Model underfitting",
-      "answer": "B"
-    },
-    {
-      "question": "What is batch size in training?",
-      "A": "Total dataset size",
-      "B": "Number of samples per update",
-      "C": "Number of features",
-      "D": "Number of classes",
-      "answer": "B"
-    },
-    {
-      "question": "What is one-hot encoding used for?",
-      "A": "Numerical features",
-      "B": "Categorical features",
-      "C": "Time series data",
-      "D": "Image data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of dropout layers?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Add features",
-      "D": "Reduce dimensionality",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of mini-batch gradient descent?",
-      "A": "Slower training",
-      "B": "Balance between speed and stability",
-      "C": "Increase model complexity",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of validation data?",
-      "A": "Final testing",
-      "B": "Model tuning",
-      "C": "Training",
-      "D": "Deployment",
-      "answer": "B"
-    },
-    {
-      "question": "What is feature engineering?",
-      "A": "Model selection",
-      "B": "Creating new features",
-      "C": "Data cleaning",
-      "D": "Model evaluation",
-      "answer": "B"
-    },
-    {
-      "question": "What is the curse of dimensionality?",
-      "A": "Too few features",
-      "B": "Problems with high-dimensional data",
-      "C": "Model simplicity",
-      "D": "Data scarcity",
-      "answer": "B"
-    },
-    {
-      "question": "What is the bias-variance tradeoff?",
-      "A": "Model selection",
-      "B": "Balance between underfitting and overfitting",
-      "C": "Feature selection",
-      "D": "Learning rate selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of normalization?",
-      "A": "Feature creation",
-      "B": "Scale features to same range",
-      "C": "Remove features",
-      "D": "Add noise",
-      "answer": "B"
-    },
-    {
-      "question": "What is a neural network layer?",
-      "A": "Data structure",
-      "B": "Collection of neurons",
-      "C": "Activation function",
-      "D": "Loss function",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of the softmax function?",
-      "A": "Binary classification",
-      "B": "Multi-class probability distribution",
-      "C": "Regression",
-      "D": "Feature scaling",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of the ReLU function?",
-      "A": "Classification",
-      "B": "Non-linear activation",
-      "C": "Loss calculation",
-      "D": "Probability distribution",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of cross-entropy loss?",
-      "A": "Regression problems",
-      "B": "Classification problems",
-      "C": "Clustering",
-      "D": "Dimensionality reduction",
-      "answer": "B"
-    },
-    {
-      "question": "What is mean squared error used for?",
-      "A": "Classification",
-      "B": "Regression",
-      "C": "Clustering",
-      "D": "Dimensionality reduction",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of weight initialization?",
-      "A": "End training",
-      "B": "Start training effectively",
-      "C": "Evaluate model",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is a neural network bias term?",
-      "A": "Error measure",
-      "B": "Constant added to weighted sum",
-      "C": "Learning rate",
-      "D": "Loss function",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of momentum in optimization?",
-      "A": "Slow down training",
-      "B": "Speed up convergence",
-      "C": "Add regularization",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of learning rate decay?",
-      "A": "Speed up training",
-      "B": "Fine-tune convergence",
-      "C": "Add features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of skip connections?",
-      "A": "Slow down training",
-      "B": "Help gradient flow",
-      "C": "Add regularization",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of batch normalization?",
-      "A": "Clean data",
-      "B": "Stabilize training",
-      "C": "Add features",
-      "D": "Select model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of data preprocessing?",
-      "A": "Model selection",
-      "B": "Prepare data for training",
-      "C": "Evaluate model",
-      "D": "Deploy model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of hyperparameter tuning?",
-      "A": "Data cleaning",
-      "B": "Optimize model parameters",
-      "C": "Feature selection",
-      "D": "Model deployment",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of model checkpointing?",
-      "A": "Clean data",
-      "B": "Save model states",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of data augmentation?",
-      "A": "Reduce data",
-      "B": "Increase training data",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of feature selection?",
-      "A": "Add features",
-      "B": "Choose relevant features",
-      "C": "Clean data",
-      "D": "Train model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of model evaluation?",
-      "A": "Train model",
-      "B": "Assess performance",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of cross-validation?",
-      "A": "Train model",
-      "B": "Evaluate model robustness",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of ensemble methods?",
-      "A": "Single model",
-      "B": "Combine multiple models",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of transfer learning?",
-      "A": "Train from scratch",
-      "B": "Use pre-trained knowledge",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of regularization?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Add features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of early stopping?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Add features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of dropout?",
-      "A": "Speed up training",
-      "B": "Prevent overfitting",
-      "C": "Add features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of batch size?",
-      "A": "Clean data",
-      "B": "Control training updates",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of learning rate?",
-      "A": "Clean data",
-      "B": "Control training steps",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of activation functions?",
-      "A": "Clean data",
-      "B": "Add non-linearity",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of loss functions?",
-      "A": "Clean data",
-      "B": "Measure model error",
-      "C": "Select features",
-      "D": "Add non-linearity",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of optimization algorithms?",
-      "A": "Clean data",
-      "B": "Update model parameters",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of validation set?",
-      "A": "Train model",
-      "B": "Tune hyperparameters",
-      "C": "Test final performance",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of test set?",
-      "A": "Train model",
-      "B": "Evaluate final performance",
-      "C": "Tune parameters",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of feature scaling?",
-      "A": "Add features",
-      "B": "Normalize feature ranges",
-      "C": "Select features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of feature engineering?",
-      "A": "Clean data",
-      "B": "Create new features",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of model selection?",
-      "A": "Clean data",
-      "B": "Choose best model",
-      "C": "Create features",
-      "D": "Evaluate performance",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of hyperparameters?",
-      "A": "Clean data",
-      "B": "Control model behavior",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of cross-entropy?",
-      "A": "Regression loss",
-      "B": "Classification loss",
-      "C": "Feature selection",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of gradient descent?",
-      "A": "Clean data",
-      "B": "Optimize parameters",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of backpropagation?",
-      "A": "Forward pass",
-      "B": "Calculate gradients",
-      "C": "Select features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of forward propagation?",
-      "A": "Calculate gradients",
-      "B": "Make predictions",
-      "C": "Select features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of weight initialization?",
-      "A": "End training",
-      "B": "Start training",
-      "C": "Select features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of bias terms?",
-      "A": "Clean data",
-      "B": "Shift activation",
-      "C": "Select features",
-      "D": "Evaluate model",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of softmax?",
-      "A": "Regression",
-      "B": "Classification probabilities",
-      "C": "Feature selection",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of ReLU?",
-      "A": "Classification",
-      "B": "Non-linear activation",
-      "C": "Feature selection",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of sigmoid?",
-      "A": "Classification",
-      "B": "Binary activation",
-      "C": "Feature selection",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of tanh?",
-      "A": "Classification",
-      "B": "Bounded activation",
-      "C": "Feature selection",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of pooling layers?",
-      "A": "Add features",
-      "B": "Reduce dimensions",
-      "C": "Clean data",
-      "D": "Select features",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of convolutional layers?",
-      "A": "Sequence data",
-      "B": "Feature extraction",
-      "C": "Data cleaning",
-      "D": "Model selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of recurrent layers?",
-      "A": "Image data",
-      "B": "Sequence data",
-      "C": "Tabular data",
-      "D": "Audio data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of dense layers?",
-      "A": "Image processing",
-      "B": "General computation",
-      "C": "Sequence processing",
-      "D": "Data cleaning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of embedding layers?",
-      "A": "Numerical data",
-      "B": "Categorical data",
-      "C": "Image data",
-      "D": "Audio data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of normalization layers?",
-      "A": "Add features",
-      "B": "Stabilize training",
-      "C": "Select features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of residual connections?",
-      "A": "Slow training",
-      "B": "Help gradient flow",
-      "C": "Add features",
-      "D": "Clean data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of attention mechanisms?",
-      "A": "Image processing",
-      "B": "Focus on important parts",
-      "C": "Data cleaning",
-      "D": "Feature selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of transformers?",
-      "A": "Image processing",
-      "B": "Sequence processing",
-      "C": "Tabular data",
-      "D": "Audio processing",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of autoencoders?",
-      "A": "Classification",
-      "B": "Dimensionality reduction",
-      "C": "Regression",
-      "D": "Clustering",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of GANs?",
-      "A": "Classification",
-      "B": "Generate data",
-      "C": "Regression",
-      "D": "Clustering",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of reinforcement learning?",
-      "A": "Supervised learning",
-      "B": "Learn through interaction",
-      "C": "Unsupervised learning",
-      "D": "Transfer learning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of semi-supervised learning?",
-      "A": "Only labeled data",
-      "B": "Both labeled and unlabeled data",
-      "C": "Only unlabeled data",
-      "D": "No data",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of self-supervised learning?",
-      "A": "External labels",
-      "B": "Create own supervision",
-      "C": "No supervision",
-      "D": "Transfer learning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of meta-learning?",
-      "A": "Single task",
-      "B": "Learn to learn",
-      "C": "Fixed learning",
-      "D": "No learning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of few-shot learning?",
-      "A": "Large datasets",
-      "B": "Learn from few examples",
-      "C": "No examples",
-      "D": "Infinite examples",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of zero-shot learning?",
-      "A": "Many examples",
-      "B": "Learn without examples",
-      "C": "Few examples",
-      "D": "Infinite examples",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of curriculum learning?",
-      "A": "Random learning",
-      "B": "Structured learning progression",
-      "C": "No structure",
-      "D": "Fixed structure",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of active learning?",
-      "A": "Passive learning",
-      "B": "Select informative samples",
-      "C": "Random selection",
-      "D": "No selection",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of online learning?",
-      "A": "Batch learning",
-      "B": "Learn incrementally",
-      "C": "No learning",
-      "D": "Fixed learning",
-      "answer": "B"
-    },
-    {
-      "question": "What is the purpose of federated learning?",
-      "A": "Centralized learning",
-      "B": "Distributed private learning",
-      "C": "No privacy",
-      "D": "No distribution",
-      "answer": "B"
-    }
-  ]
+  {
+    "question": "What is K-means used for?",
+    "A": "Clustering",
+    "B": "Dimensionality reduction",
+    "C": "Classification",
+    "D": "Regression",
+    "answer": "D"
+  },
+  {
+    "question": "What is L1 regularization?",
+    "A": "Data normalization",
+    "B": "Adding squared weights penalty",
+    "C": "Feature scaling",
+    "D": "Adding absolute weights penalty",
+    "answer": "D"
+  },
+  {
+    "question": "What is L2 regularization?",
+    "A": "Data normalization",
+    "B": "Feature scaling",
+    "C": "Adding squared weights penalty",
+    "D": "Adding absolute weights penalty",
+    "answer": "D"
+  },
+  {
+    "question": "What is PCA used for?",
+    "A": "Regression",
+    "B": "Dimensionality reduction",
+    "C": "Clustering",
+    "D": "Classification",
+    "answer": "D"
+  },
+  {
+    "question": "What is a confusion matrix used for?",
+    "A": "Feature selection",
+    "B": "Evaluating classification models",
+    "C": "Data preprocessing",
+    "D": "Visualizing data",
+    "answer": "C"
+  },
+  {
+    "question": "What is a convolutional neural network used for?",
+    "A": "Tabular data",
+    "B": "Image processing",
+    "C": "Text processing",
+    "D": "Time series analysis",
+    "answer": "A"
+  },
+  {
+    "question": "What is a decision tree?",
+    "A": "Tree-structured classifier",
+    "B": "Neural network type",
+    "C": "Clustering algorithm",
+    "D": "Regression technique",
+    "answer": "C"
+  },
+  {
+    "question": "What is a neural network activation function?",
+    "A": "Learning rate",
+    "B": "Non-linear transformation",
+    "C": "Loss function",
+    "D": "Weight initialization",
+    "answer": "D"
+  },
+  {
+    "question": "What is a neural network bias term?",
+    "A": "Loss function",
+    "B": "Learning rate",
+    "C": "Constant added to weighted sum",
+    "D": "Error measure",
+    "answer": "B"
+  },
+  {
+    "question": "What is a neural network layer?",
+    "A": "Data structure",
+    "B": "Loss function",
+    "C": "Activation function",
+    "D": "Collection of neurons",
+    "answer": "D"
+  },
+  {
+    "question": "What is a recurrent neural network used for?",
+    "A": "Image processing",
+    "B": "Tabular data",
+    "C": "Sequence data",
+    "D": "Dimensionality reduction",
+    "answer": "D"
+  },
+  {
+    "question": "What is a support vector machine?",
+    "A": "Clustering algorithm",
+    "B": "Regression algorithm",
+    "C": "Classification algorithm",
+    "D": "Dimensionality reduction algorithm",
+    "answer": "A"
+  },
+  {
+    "question": "What is backpropagation?",
+    "A": "Data preprocessing",
+    "B": "Gradient calculation and weight updates",
+    "C": "Forward pass calculation",
+    "D": "Weight initialization",
+    "answer": "C"
+  },
+  {
+    "question": "What is bagging?",
+    "A": "Ensemble method",
+    "B": "Activation function",
+    "C": "Feature selection",
+    "D": "Loss function",
+    "answer": "A"
+  },
+  {
+    "question": "What is batch normalization?",
+    "A": "Loss function",
+    "B": "Regularization technique",
+    "C": "Activation function",
+    "D": "Data preprocessing",
+    "answer": "A"
+  },
+  {
+    "question": "What is batch size in training?",
+    "A": "Number of features",
+    "B": "Total dataset size",
+    "C": "Number of samples per update",
+    "D": "Number of classes",
+    "answer": "D"
+  },
+  {
+    "question": "What is bias in machine learning?",
+    "A": "Model's tendency to consistently learn wrong patterns",
+    "B": "Training data size",
+    "C": "Learning rate",
+    "D": "Random error",
+    "answer": "B"
+  },
+  {
+    "question": "What is boosting?",
+    "A": "Feature selection",
+    "B": "Ensemble method",
+    "C": "Activation function",
+    "D": "Loss function",
+    "answer": "C"
+  },
+  {
+    "question": "What is data augmentation?",
+    "A": "Model optimization",
+    "B": "Feature selection",
+    "C": "Data cleaning",
+    "D": "Creating synthetic training data",
+    "answer": "A"
+  },
+  {
+    "question": "What is dropout in neural networks?",
+    "A": "Loss function",
+    "B": "Regularization technique",
+    "C": "Learning rate decay",
+    "D": "Activation function",
+    "answer": "D"
+  },
+  {
+    "question": "What is ensemble learning?",
+    "A": "Data cleaning",
+    "B": "Using single model",
+    "C": "Feature extraction",
+    "D": "Combining multiple models",
+    "answer": "A"
+  },
+  {
+    "question": "What is feature engineering?",
+    "A": "Creating new features",
+    "B": "Model evaluation",
+    "C": "Data cleaning",
+    "D": "Model selection",
+    "answer": "D"
+  },
+  {
+    "question": "What is feature scaling?",
+    "A": "Combining features",
+    "B": "Adding features",
+    "C": "Removing features",
+    "D": "Normalizing feature values",
+    "answer": "B"
+  },
+  {
+    "question": "What is gradient descent used for?",
+    "A": "Data preprocessing",
+    "B": "Data visualization",
+    "C": "Model optimization",
+    "D": "Feature selection",
+    "answer": "C"
+  },
+  {
+    "question": "What is mean squared error used for?",
+    "A": "Regression",
+    "B": "Classification",
+    "C": "Clustering",
+    "D": "Dimensionality reduction",
+    "answer": "B"
+  },
+  {
+    "question": "What is one-hot encoding used for?",
+    "A": "Numerical features",
+    "B": "Categorical features",
+    "C": "Time series data",
+    "D": "Image data",
+    "answer": "C"
+  },
+  {
+    "question": "What is overfitting?",
+    "A": "Model is too simple",
+    "B": "Model trains too quickly",
+    "C": "Model performs poorly on all data",
+    "D": "Model performs well on training data but poorly on new data",
+    "answer": "A"
+  },
+  {
+    "question": "What is precision in classification?",
+    "A": "Error rate",
+    "B": "Overall accuracy",
+    "C": "True positives / (True positives + False positives)",
+    "D": "True positives / (True positives + False negatives)",
+    "answer": "A"
+  },
+  {
+    "question": "What is recall in classification?",
+    "A": "True positives / (True positives + False negatives)",
+    "B": "Error rate",
+    "C": "Overall accuracy",
+    "D": "True positives / (True positives + False positives)",
+    "answer": "D"
+  },
+  {
+    "question": "What is supervised learning?",
+    "A": "Learning without labeled data",
+    "B": "Learning with labeled training data",
+    "C": "Learning through clustering",
+    "D": "Learning through reinforcement",
+    "answer": "A"
+  },
+  {
+    "question": "What is the bias-variance tradeoff?",
+    "A": "Model selection",
+    "B": "Feature selection",
+    "C": "Balance between underfitting and overfitting",
+    "D": "Learning rate selection",
+    "answer": "C"
+  },
+  {
+    "question": "What is the curse of dimensionality?",
+    "A": "Data scarcity",
+    "B": "Too few features",
+    "C": "Problems with high-dimensional data",
+    "D": "Model simplicity",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of GANs?",
+    "A": "Generate data",
+    "B": "Regression",
+    "C": "Classification",
+    "D": "Clustering",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of ReLU?",
+    "A": "Non-linear activation",
+    "B": "Feature selection",
+    "C": "Classification",
+    "D": "Data cleaning",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of activation functions?",
+    "A": "Evaluate model",
+    "B": "Clean data",
+    "C": "Select features",
+    "D": "Add non-linearity",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of active learning?",
+    "A": "Select informative samples",
+    "B": "Passive learning",
+    "C": "Random selection",
+    "D": "No selection",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of attention mechanisms?",
+    "A": "Data cleaning",
+    "B": "Focus on important parts",
+    "C": "Image processing",
+    "D": "Feature selection",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of autoencoders?",
+    "A": "Classification",
+    "B": "Regression",
+    "C": "Clustering",
+    "D": "Dimensionality reduction",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of backpropagation?",
+    "A": "Calculate gradients",
+    "B": "Clean data",
+    "C": "Forward pass",
+    "D": "Select features",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of batch normalization?",
+    "A": "Select model",
+    "B": "Stabilize training",
+    "C": "Clean data",
+    "D": "Add features",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of batch size?",
+    "A": "Evaluate model",
+    "B": "Control training updates",
+    "C": "Select features",
+    "D": "Clean data",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of bias terms?",
+    "A": "Clean data",
+    "B": "Evaluate model",
+    "C": "Select features",
+    "D": "Shift activation",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of convolutional layers?",
+    "A": "Sequence data",
+    "B": "Feature extraction",
+    "C": "Model selection",
+    "D": "Data cleaning",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of cross-entropy loss?",
+    "A": "Regression problems",
+    "B": "Dimensionality reduction",
+    "C": "Classification problems",
+    "D": "Clustering",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of cross-entropy?",
+    "A": "Classification loss",
+    "B": "Data cleaning",
+    "C": "Regression loss",
+    "D": "Feature selection",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of cross-validation?",
+    "A": "To visualize results",
+    "B": "To evaluate model performance",
+    "C": "To compress data",
+    "D": "To clean data",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of cross-validation?",
+    "A": "Train model",
+    "B": "Select features",
+    "C": "Clean data",
+    "D": "Evaluate model robustness",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of curriculum learning?",
+    "A": "Fixed structure",
+    "B": "Structured learning progression",
+    "C": "No structure",
+    "D": "Random learning",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of data augmentation?",
+    "A": "Clean data",
+    "B": "Select features",
+    "C": "Reduce data",
+    "D": "Increase training data",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of data preprocessing?",
+    "A": "Deploy model",
+    "B": "Evaluate model",
+    "C": "Prepare data for training",
+    "D": "Model selection",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of dense layers?",
+    "A": "General computation",
+    "B": "Image processing",
+    "C": "Data cleaning",
+    "D": "Sequence processing",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of dropout layers?",
+    "A": "Speed up training",
+    "B": "Add features",
+    "C": "Reduce dimensionality",
+    "D": "Prevent overfitting",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of dropout?",
+    "A": "Prevent overfitting",
+    "B": "Clean data",
+    "C": "Speed up training",
+    "D": "Add features",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of early stopping?",
+    "A": "Feature selection",
+    "B": "Prevent overfitting",
+    "C": "Increase model complexity",
+    "D": "Speed up training",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of early stopping?",
+    "A": "Clean data",
+    "B": "Prevent overfitting",
+    "C": "Add features",
+    "D": "Speed up training",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of embedding layers?",
+    "A": "Audio data",
+    "B": "Numerical data",
+    "C": "Categorical data",
+    "D": "Image data",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of ensemble methods?",
+    "A": "Clean data",
+    "B": "Select features",
+    "C": "Single model",
+    "D": "Combine multiple models",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of feature engineering?",
+    "A": "Evaluate model",
+    "B": "Select features",
+    "C": "Clean data",
+    "D": "Create new features",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of feature scaling?",
+    "A": "Select features",
+    "B": "Add features",
+    "C": "Normalize feature ranges",
+    "D": "Clean data",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of feature selection?",
+    "A": "Clean data",
+    "B": "Add features",
+    "C": "Train model",
+    "D": "Choose relevant features",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of federated learning?",
+    "A": "Distributed private learning",
+    "B": "No privacy",
+    "C": "Centralized learning",
+    "D": "No distribution",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of few-shot learning?",
+    "A": "No examples",
+    "B": "Learn from few examples",
+    "C": "Infinite examples",
+    "D": "Large datasets",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of forward propagation?",
+    "A": "Calculate gradients",
+    "B": "Select features",
+    "C": "Make predictions",
+    "D": "Clean data",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of gradient descent?",
+    "A": "Select features",
+    "B": "Clean data",
+    "C": "Evaluate model",
+    "D": "Optimize parameters",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of hyperparameter tuning?",
+    "A": "Optimize model parameters",
+    "B": "Data cleaning",
+    "C": "Feature selection",
+    "D": "Model deployment",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of hyperparameters?",
+    "A": "Evaluate model",
+    "B": "Control model behavior",
+    "C": "Select features",
+    "D": "Clean data",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of learning rate decay?",
+    "A": "Fine-tune convergence",
+    "B": "Add features",
+    "C": "Speed up training",
+    "D": "Clean data",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of learning rate?",
+    "A": "Clean data",
+    "B": "Select features",
+    "C": "Evaluate model",
+    "D": "Control training steps",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of loss functions?",
+    "A": "Measure model error",
+    "B": "Add non-linearity",
+    "C": "Clean data",
+    "D": "Select features",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of max pooling?",
+    "A": "Initialize weights",
+    "B": "Increase features",
+    "C": "Reduce dimensionality",
+    "D": "Add non-linearity",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of meta-learning?",
+    "A": "Learn to learn",
+    "B": "Single task",
+    "C": "Fixed learning",
+    "D": "No learning",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of mini-batch gradient descent?",
+    "A": "Increase model complexity",
+    "B": "Slower training",
+    "C": "Balance between speed and stability",
+    "D": "Feature selection",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of model checkpointing?",
+    "A": "Clean data",
+    "B": "Evaluate model",
+    "C": "Select features",
+    "D": "Save model states",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of model evaluation?",
+    "A": "Assess performance",
+    "B": "Train model",
+    "C": "Clean data",
+    "D": "Select features",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of model selection?",
+    "A": "Evaluate performance",
+    "B": "Choose best model",
+    "C": "Clean data",
+    "D": "Create features",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of momentum in optimization?",
+    "A": "Add regularization",
+    "B": "Slow down training",
+    "C": "Speed up convergence",
+    "D": "Feature selection",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of normalization layers?",
+    "A": "Stabilize training",
+    "B": "Select features",
+    "C": "Clean data",
+    "D": "Add features",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of normalization?",
+    "A": "Scale features to same range",
+    "B": "Feature creation",
+    "C": "Remove features",
+    "D": "Add noise",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of online learning?",
+    "A": "Fixed learning",
+    "B": "No learning",
+    "C": "Learn incrementally",
+    "D": "Batch learning",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of optimization algorithms?",
+    "A": "Clean data",
+    "B": "Update model parameters",
+    "C": "Evaluate model",
+    "D": "Select features",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of pooling layers?",
+    "A": "Add features",
+    "B": "Clean data",
+    "C": "Reduce dimensions",
+    "D": "Select features",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of recurrent layers?",
+    "A": "Image data",
+    "B": "Audio data",
+    "C": "Tabular data",
+    "D": "Sequence data",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of regularization?",
+    "A": "Increase model complexity",
+    "B": "Clean data",
+    "C": "Speed up training",
+    "D": "Prevent overfitting",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of regularization?",
+    "A": "Prevent overfitting",
+    "B": "Clean data",
+    "C": "Add features",
+    "D": "Speed up training",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of reinforcement learning?",
+    "A": "Unsupervised learning",
+    "B": "Supervised learning",
+    "C": "Learn through interaction",
+    "D": "Transfer learning",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of residual connections?",
+    "A": "Clean data",
+    "B": "Add features",
+    "C": "Slow training",
+    "D": "Help gradient flow",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of self-supervised learning?",
+    "A": "Create own supervision",
+    "B": "External labels",
+    "C": "No supervision",
+    "D": "Transfer learning",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of semi-supervised learning?",
+    "A": "Only unlabeled data",
+    "B": "Both labeled and unlabeled data",
+    "C": "Only labeled data",
+    "D": "No data",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of sigmoid?",
+    "A": "Feature selection",
+    "B": "Classification",
+    "C": "Binary activation",
+    "D": "Data cleaning",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of skip connections?",
+    "A": "Help gradient flow",
+    "B": "Add regularization",
+    "C": "Feature selection",
+    "D": "Slow down training",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of softmax?",
+    "A": "Feature selection",
+    "B": "Data cleaning",
+    "C": "Classification probabilities",
+    "D": "Regression",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of tanh?",
+    "A": "Bounded activation",
+    "B": "Data cleaning",
+    "C": "Classification",
+    "D": "Feature selection",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of test set?",
+    "A": "Clean data",
+    "B": "Train model",
+    "C": "Tune parameters",
+    "D": "Evaluate final performance",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of the ReLU function?",
+    "A": "Classification",
+    "B": "Loss calculation",
+    "C": "Probability distribution",
+    "D": "Non-linear activation",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of the learning rate?",
+    "A": "Control feature selection",
+    "B": "Control data preprocessing",
+    "C": "Control gradient descent step size",
+    "D": "Control model complexity",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of the softmax function?",
+    "A": "Regression",
+    "B": "Binary classification",
+    "C": "Feature scaling",
+    "D": "Multi-class probability distribution",
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of the train-test split?",
+    "A": "Feature selection",
+    "B": "Speed up training",
+    "C": "Reduce data size",
+    "D": "Evaluate model performance",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of transfer learning?",
+    "A": "Select features",
+    "B": "Clean data",
+    "C": "Use pre-trained knowledge",
+    "D": "Train from scratch",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of transformers?",
+    "A": "Tabular data",
+    "B": "Audio processing",
+    "C": "Sequence processing",
+    "D": "Image processing",
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of validation data?",
+    "A": "Deployment",
+    "B": "Final testing",
+    "C": "Model tuning",
+    "D": "Training",
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of validation set?",
+    "A": "Test final performance",
+    "B": "Train model",
+    "C": "Clean data",
+    "D": "Tune hyperparameters",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of weight initialization?",
+    "A": "Start training effectively",
+    "B": "Clean data",
+    "C": "Evaluate model",
+    "D": "End training",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of weight initialization?",
+    "A": "Start training",
+    "B": "End training",
+    "C": "Select features",
+    "D": "Clean data",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of zero-shot learning?",
+    "A": "Few examples",
+    "B": "Infinite examples",
+    "C": "Learn without examples",
+    "D": "Many examples",
+    "answer": "D"
+  },
+  {
+    "question": "What is the vanishing gradient problem?",
+    "A": "Too fast training",
+    "B": "Gradients becoming too small",
+    "C": "Model underfitting",
+    "D": "Memory overflow",
+    "answer": "C"
+  },
+  {
+    "question": "What is transfer learning?",
+    "A": "Model compression",
+    "B": "Training from scratch",
+    "C": "Using pre-trained models",
+    "D": "Data augmentation",
+    "answer": "C"
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "A": "Learning with labeled data",
+    "B": "Reinforcement learning",
+    "C": "Learning without labeled data",
+    "D": "Transfer learning",
+    "answer": "B"
+  },
+  {
+    "question": "What is variance in machine learning?",
+    "A": "Learning rate",
+    "B": "Batch size",
+    "C": "Model complexity",
+    "D": "Model's sensitivity to training data fluctuations",
+    "answer": "C"
+  },
+  {
+    "question": "Which metric is used for regression problems?",
+    "A": "Accuracy",
+    "B": "Precision",
+    "C": "Mean Squared Error",
+    "D": "F1 Score",
+    "answer": "C"
+  },
+  {
+    "question": "Which of these is a classification algorithm?",
+    "A": "Random Forest",
+    "B": "K-means",
+    "C": "Linear Regression",
+    "D": "Principal Component Analysis",
+    "answer": "C"
+  }
+]
