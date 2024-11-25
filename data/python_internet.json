@@ -1,0 +1,850 @@
+[
+    {
+      "question": "What is the output of urlparse('https://www.example.com:8080/path?key=value#fragment').port?",
+      "A": "8080", 
+      "B": "80",
+      "C": "443", 
+      "D": "None",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates a successful request?",
+      "A": "404",
+      "B": "500", 
+      "C": "200",
+      "D": "301",
+      "answer": "C"
+    },
+    {
+      "question": "What is the output of requests.get('https://api.example.com').json()['data'] if the response is {'data': [1,2,3]}?",
+      "A": "{'data': [1,2,3]}",
+      "B": "[1,2,3]",
+      "C": "data",
+      "D": "None",
+      "answer": "B"
+    },
+    {
+      "question": "What is the default port for HTTPS connections?", 
+      "A": "80",
+      "B": "443",
+      "C": "8080",
+      "D": "8443",
+      "answer": "B"
+    },
+    {
+      "question": "Which method in socket programming is used to start listening for incoming connections?",
+      "A": "connect()",
+      "B": "bind()",
+      "C": "listen()",
+      "D": "accept()",
+      "answer": "C"
+    },
+    {
+      "question": "What is the output of urllib.parse.urlencode({'key': 'value', 'space': 'hello world'})?",
+      "A": "key=value&space=hello world",
+      "B": "key=value&space=hello+world", 
+      "C": "key=value&space=hello%20world",
+      "D": "key:value,space:hello world",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the requests.Session() object?",
+      "A": "To store cookies across requests",
+      "B": "To create a new HTTP server",
+      "C": "To parse URLs",
+      "D": "To encode JSON data",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP method is idempotent?",
+      "A": "POST",
+      "B": "GET", 
+      "C": "PATCH",
+      "D": "DELETE",
+      "answer": "B"
+    },
+    {
+      "question": "What is the Content-Type header for JSON data?",
+      "A": "text/json",
+      "B": "application/javascript",
+      "C": "application/json",
+      "D": "text/plain",
+      "answer": "C"
+    },
+    {
+      "question": "Which socket function is used to accept a new client connection?",
+      "A": "connect()",
+      "B": "bind()",
+      "C": "listen()",
+      "D": "accept()",
+      "answer": "D"
+    },
+    {
+      "question": "What is the default timeout for requests.get()?",
+      "A": "None",
+      "B": "30 seconds",
+      "C": "60 seconds", 
+      "D": "5 seconds",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code represents a redirect?",
+      "A": "200",
+      "B": "301",
+      "C": "404",
+      "D": "500",
+      "answer": "B"
+    },
+    {
+      "question": "What is the output of urlparse('http://example.com').scheme?",
+      "A": "http://",
+      "B": "http",
+      "C": "example.com",
+      "D": "None",
+      "answer": "B"
+    },
+    {
+      "question": "Which HTTP method should be used to update a resource?",
+      "A": "GET",
+      "B": "POST",
+      "C": "PUT",
+      "D": "DELETE",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Host header in HTTP requests?",
+      "A": "To specify the client's hostname",
+      "B": "To specify the server's hostname",
+      "C": "To specify the protocol",
+      "D": "To specify authentication",
+      "answer": "B"
+    },
+    {
+      "question": "Which HTTP status code indicates a client error?",
+      "A": "200",
+      "B": "301",
+      "C": "404",
+      "D": "500",
+      "answer": "C"
+    },
+    {
+      "question": "What is the default HTTP version used by requests?",
+      "A": "HTTP/1.0",
+      "B": "HTTP/1.1",
+      "C": "HTTP/2",
+      "D": "HTTP/3",
+      "answer": "B"
+    },
+    {
+      "question": "Which parameter in requests.get() is used to add query parameters?",
+      "A": "data",
+      "B": "json",
+      "C": "params",
+      "D": "headers",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Connection: keep-alive header?",
+      "A": "To maintain persistent connections",
+      "B": "To compress data",
+      "C": "To authenticate",
+      "D": "To redirect",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP method is not idempotent?",
+      "A": "GET",
+      "B": "PUT",
+      "C": "POST",
+      "D": "DELETE",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the User-Agent header?",
+      "A": "To identify the client application",
+      "B": "To specify the content type",
+      "C": "To authenticate",
+      "D": "To compress data",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code range represents server errors?",
+      "A": "2xx",
+      "B": "3xx",
+      "C": "4xx",
+      "D": "5xx",
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of the OPTIONS HTTP method?",
+      "A": "To retrieve data",
+      "B": "To check available methods",
+      "C": "To update data",
+      "D": "To delete data",
+      "answer": "B"
+    },
+    {
+      "question": "Which header is used for basic authentication?",
+      "A": "Auth",
+      "B": "Authorization",
+      "C": "Authentication",
+      "D": "Authenticate",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Accept header?",
+      "A": "To specify response format",
+      "B": "To specify request body format",
+      "C": "To authenticate",
+      "D": "To compress data",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates a bad request?",
+      "A": "200",
+      "B": "301",
+      "C": "400",
+      "D": "500",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Content-Length header?",
+      "A": "To specify response size",
+      "B": "To specify compression",
+      "C": "To specify content type",
+      "D": "To specify encoding",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option sets the reuse address flag?",
+      "A": "SO_REUSEPORT",
+      "B": "SO_REUSEADDR",
+      "C": "SO_KEEPALIVE",
+      "D": "SO_BROADCAST",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the HEAD HTTP method?",
+      "A": "To get headers only",
+      "B": "To get full response",
+      "C": "To update headers",
+      "D": "To delete headers",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates unauthorized access?",
+      "A": "400",
+      "B": "401",
+      "C": "403",
+      "D": "404",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Cache-Control header?",
+      "A": "To control caching behavior",
+      "B": "To control compression",
+      "C": "To control authentication",
+      "D": "To control redirects",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests.post() is used to send form data?",
+      "A": "params",
+      "B": "json",
+      "C": "data",
+      "D": "headers",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the ETag header?",
+      "A": "For cache validation",
+      "B": "For authentication",
+      "C": "For compression",
+      "D": "For redirection",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP method should be used to create a new resource?",
+      "A": "GET",
+      "B": "POST",
+      "C": "PUT",
+      "D": "DELETE",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Accept-Encoding header?",
+      "A": "To specify character encoding",
+      "B": "To specify compression",
+      "C": "To specify content type",
+      "D": "To specify language",
+      "answer": "B"
+    },
+    {
+      "question": "Which HTTP status code indicates forbidden access?",
+      "A": "400",
+      "B": "401",
+      "C": "403",
+      "D": "404",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Origin header?",
+      "A": "For CORS",
+      "B": "For caching",
+      "C": "For compression",
+      "D": "For authentication",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option enables keep-alive?",
+      "A": "SO_REUSEADDR",
+      "B": "SO_BROADCAST",
+      "C": "SO_KEEPALIVE",
+      "D": "SO_LINGER",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Referer header?",
+      "A": "To indicate previous page",
+      "B": "To specify content type",
+      "C": "To authenticate",
+      "D": "To compress data",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates service unavailable?",
+      "A": "500",
+      "B": "501",
+      "C": "502",
+      "D": "503",
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of the Allow header?",
+      "A": "To list allowed methods",
+      "B": "To allow CORS",
+      "C": "To allow caching",
+      "D": "To allow compression",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to set request timeout?",
+      "A": "time",
+      "B": "timeout",
+      "C": "wait",
+      "D": "delay",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the If-None-Match header?",
+      "A": "For cache validation",
+      "B": "For authentication",
+      "C": "For compression",
+      "D": "For redirection",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP method is used to partially update a resource?",
+      "A": "POST",
+      "B": "PUT",
+      "C": "PATCH",
+      "D": "UPDATE",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Access-Control-Allow-Origin header?",
+      "A": "For CORS",
+      "B": "For caching",
+      "C": "For compression",
+      "D": "For authentication",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates not implemented?",
+      "A": "500",
+      "B": "501",
+      "C": "502",
+      "D": "503",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Last-Modified header?",
+      "A": "For cache validation",
+      "B": "For authentication",
+      "C": "For compression",
+      "D": "For redirection",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket function is used to send data?",
+      "A": "write()",
+      "B": "send()",
+      "C": "put()",
+      "D": "transmit()",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Content-Encoding header?",
+      "A": "To specify compression",
+      "B": "To specify content type",
+      "C": "To specify character encoding",
+      "D": "To specify language",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates gateway timeout?",
+      "A": "502",
+      "B": "503",
+      "C": "504",
+      "D": "505",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the If-Modified-Since header?",
+      "A": "For cache validation",
+      "B": "For authentication",
+      "C": "For compression",
+      "D": "For redirection",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to verify SSL certificates?",
+      "A": "ssl",
+      "B": "verify",
+      "C": "cert",
+      "D": "certificate",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Vary header?",
+      "A": "To specify cache variations",
+      "B": "To specify content variations",
+      "C": "To specify encoding variations",
+      "D": "To specify language variations",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates too many requests?",
+      "A": "429",
+      "B": "430",
+      "C": "431",
+      "D": "432",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the Transfer-Encoding header?",
+      "A": "To specify transfer method",
+      "B": "To specify content encoding",
+      "C": "To specify compression",
+      "D": "To specify character encoding",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option sets the broadcast flag?",
+      "A": "SO_REUSEADDR",
+      "B": "SO_BROADCAST",
+      "C": "SO_KEEPALIVE",
+      "D": "SO_LINGER",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Age header?",
+      "A": "To specify object age in cache",
+      "B": "To specify client age",
+      "C": "To specify server age",
+      "D": "To specify connection age",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates precondition failed?",
+      "A": "410",
+      "B": "411",
+      "C": "412",
+      "D": "413",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Expect header?",
+      "A": "To indicate expected behavior",
+      "B": "To specify content type",
+      "C": "To authenticate",
+      "D": "To compress data",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to follow redirects?",
+      "A": "redirect",
+      "B": "follow",
+      "C": "allow_redirects",
+      "D": "follow_redirects",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Range header?",
+      "A": "To request partial content",
+      "B": "To specify content range",
+      "C": "To specify byte range",
+      "D": "To specify date range",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates unsupported media type?",
+      "A": "413",
+      "B": "414",
+      "C": "415",
+      "D": "416",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Via header?",
+      "A": "To track message forwards",
+      "B": "To specify routing",
+      "C": "To specify proxy",
+      "D": "To specify gateway",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket function is used to receive data?",
+      "A": "read()",
+      "B": "recv()",
+      "C": "get()",
+      "D": "receive()",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the X-Forwarded-For header?",
+      "A": "To track client IP",
+      "B": "To track server IP",
+      "C": "To track proxy IP",
+      "D": "To track gateway IP",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates request timeout?",
+      "A": "406",
+      "B": "407",
+      "C": "408",
+      "D": "409",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Cookie header?",
+      "A": "To send cookies to server",
+      "B": "To receive cookies",
+      "C": "To delete cookies",
+      "D": "To update cookies",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to set custom headers?",
+      "A": "header",
+      "B": "headers",
+      "C": "custom_headers",
+      "D": "http_headers",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Location header?",
+      "A": "To specify redirect URL",
+      "B": "To specify current URL",
+      "C": "To specify base URL",
+      "D": "To specify referrer URL",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates conflict?",
+      "A": "407",
+      "B": "408",
+      "C": "409",
+      "D": "410",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the If-Match header?",
+      "A": "For cache validation",
+      "B": "For authentication",
+      "C": "For compression",
+      "D": "For redirection",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option sets the linger time?",
+      "A": "SO_REUSEADDR",
+      "B": "SO_BROADCAST",
+      "C": "SO_KEEPALIVE",
+      "D": "SO_LINGER",
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of the WWW-Authenticate header?",
+      "A": "To request authentication",
+      "B": "To provide authentication",
+      "C": "To verify authentication",
+      "D": "To remove authentication",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates length required?",
+      "A": "409",
+      "B": "410",
+      "C": "411",
+      "D": "412",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Accept-Language header?",
+      "A": "To specify preferred language",
+      "B": "To specify content language",
+      "C": "To specify default language",
+      "D": "To specify system language",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to send cookies?",
+      "A": "cookie",
+      "B": "cookies",
+      "C": "http_cookie",
+      "D": "session_cookie",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Server header?",
+      "A": "To identify server software",
+      "B": "To identify client software",
+      "C": "To identify proxy software",
+      "D": "To identify gateway software",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates gone?",
+      "A": "408",
+      "B": "409",
+      "C": "410",
+      "D": "411",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Accept-Ranges header?",
+      "A": "To indicate range support",
+      "B": "To specify range",
+      "C": "To request range",
+      "D": "To validate range",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket function is used to close a connection?",
+      "A": "end()",
+      "B": "close()",
+      "C": "disconnect()",
+      "D": "terminate()",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Upgrade header?",
+      "A": "To request protocol upgrade",
+      "B": "To upgrade connection",
+      "C": "To upgrade security",
+      "D": "To upgrade version",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates URI too long?",
+      "A": "412",
+      "B": "413",
+      "C": "414",
+      "D": "415",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Content-Language header?",
+      "A": "To specify content language",
+      "B": "To specify preferred language",
+      "C": "To specify default language",
+      "D": "To specify system language",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to send client certificates?",
+      "A": "cert",
+      "B": "certificate",
+      "C": "client_cert",
+      "D": "ssl_cert",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the Date header?",
+      "A": "To specify message date",
+      "B": "To specify expiry date",
+      "C": "To specify modified date",
+      "D": "To specify creation date",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates payload too large?",
+      "A": "411",
+      "B": "412",
+      "C": "413",
+      "D": "414",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Connection header?",
+      "A": "To control connection behavior",
+      "B": "To specify connection type",
+      "C": "To authenticate connection",
+      "D": "To upgrade connection",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option sets the timeout?",
+      "A": "SO_TIMEOUT",
+      "B": "SO_RCVTIMEO",
+      "C": "SO_SNDTIMEO",
+      "D": "SO_WAIT",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Pragma header?",
+      "A": "To specify cache directives",
+      "B": "To specify protocol",
+      "C": "To specify method",
+      "D": "To specify version",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates expectation failed?",
+      "A": "415",
+      "B": "416",
+      "C": "417",
+      "D": "418",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Content-Disposition header?",
+      "A": "To suggest filename",
+      "B": "To specify content type",
+      "C": "To specify encoding",
+      "D": "To specify language",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to stream response?",
+      "A": "stream",
+      "B": "streaming",
+      "C": "download",
+      "D": "transfer",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the Link header?",
+      "A": "To provide resource links",
+      "B": "To specify redirect link",
+      "C": "To specify base link",
+      "D": "To specify referrer link",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates range not satisfiable?",
+      "A": "414",
+      "B": "415",
+      "C": "416",
+      "D": "417",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Retry-After header?",
+      "A": "To specify retry delay",
+      "B": "To specify retry count",
+      "C": "To specify retry time",
+      "D": "To specify retry method",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket function is used to set socket options?",
+      "A": "set()",
+      "B": "setsockopt()",
+      "C": "setoption()",
+      "D": "setopt()",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Warning header?",
+      "A": "To provide warning message",
+      "B": "To specify error message",
+      "C": "To specify status message",
+      "D": "To specify debug message",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates I'm a teapot?",
+      "A": "416",
+      "B": "417",
+      "C": "418",
+      "D": "419",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the Content-Range header?",
+      "A": "To specify byte range",
+      "B": "To specify date range",
+      "C": "To specify time range",
+      "D": "To specify version range",
+      "answer": "A"
+    },
+    {
+      "question": "Which parameter in requests is used to specify proxy?",
+      "A": "proxy",
+      "B": "proxies",
+      "C": "http_proxy",
+      "D": "proxy_url",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Trailer header?",
+      "A": "To indicate trailing headers",
+      "B": "To specify footer",
+      "C": "To specify end",
+      "D": "To specify completion",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates misdirected request?",
+      "A": "418",
+      "B": "419",
+      "C": "420",
+      "D": "421",
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of the DNT header?",
+      "A": "To request no tracking",
+      "B": "To disable cookies",
+      "C": "To block ads",
+      "D": "To enable privacy",
+      "answer": "A"
+    },
+    {
+      "question": "Which socket option sets the buffer size?",
+      "A": "SO_RCVBUF",
+      "B": "SO_BUFFER",
+      "C": "SO_BUFSIZE",
+      "D": "SO_SIZE",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the Forwarded header?",
+      "A": "To track request path",
+      "B": "To specify redirect path",
+      "C": "To specify proxy path",
+      "D": "To specify gateway path",
+      "answer": "A"
+    },
+    {
+      "question": "Which HTTP status code indicates unprocessable entity?",
+      "A": "420",
+      "B": "421",
+      "C": "422",
+      "D": "423",
+      "answer": "C"
+    }
+  ]

@@ -1,0 +1,10 @@
+
+{
+    "1" : ["Basic Science", "basic_sci"],
+    "2" : ["Basic Python", "python"],
+    "3" : ["Math Module (py)", "math_py"],
+    "4" : ["Python Internet", "python_internet"],
+    "5" : ["ML Basics", "basic_ml"],
+    "6" : ["DSA", "dsa"],
+    "7" : ["Basic C", "basic_c"]
+}
