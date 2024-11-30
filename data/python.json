@@ -1,938 +1,442 @@
 [
   {
-    "question": "How can you define a recursive function in Python?",
-    "A": "By defining a nested function",
-    "B": "By calling the function inside itself",
-    "C": "By using a loop inside the function",
-    "D": "By using an external function",
-    "answer": "A"
-  },
-  {
-    "question": "How do you create a new empty set in Python?",
-    "A": "set()",
-    "B": "new_set()",
-    "C": "[]",
-    "D": "{}",
-    "answer": "C"
-  },
-  {
-    "question": "How do you define a function in Python?",
-    "A": "function myFunction():",
-    "B": "define myFunction():",
-    "C": "function: myFunction()",
-    "D": "def myFunction():",
-    "answer": "C"
-  },
-  {
-    "question": "How do you define a function with default parameters in Python?",
-    "A": "def myFunction(a = 5):",
-    "B": "def myFunction(a = 5, b = 3):",
-    "C": "function myFunction(a, b = 3):",
-    "D": "def myFunction(a): a = 5",
-    "answer": "A"
-  },
-  {
-    "question": "How do you specify a function that returns multiple values in Python?",
-    "A": "By using a list",
-    "B": "By separating return values with commas",
-    "C": "By using a tuple",
-    "D": "All of the above",
-    "answer": "D"
-  },
-  {
-    "question": "How do you start a comment in Python?",
-    "A": "$ This is a comment",
-    "B": "# This is a comment",
-    "C": "// This is a comment",
-    "D": "/* This is a comment */",
-    "answer": "D"
-  },
-  {
-    "question": "What does the '%' operator do in Python?",
-    "A": "Performs integer division",
-    "B": "Performs modulo operation (remainder after division)",
-    "C": "Performs exponentiation",
-    "D": "Checks equality",
-    "answer": "B"
-  },
-  {
-    "question": "What does the '//' operator do in Python?",
-    "A": "Performs integer division (floors the result)",
-    "B": "Performs regular division",
-    "C": "Raises an exception",
-    "D": "Calculates the remainder",
-    "answer": "D"
-  },
-  {
-    "question": "What does the 'break' statement do in a loop in Python?",
-    "A": "Exits the loop and moves to the next statement after the loop",
-    "B": "Skips the current iteration and continues to the next one",
-    "C": "Ends the loop and exits the program",
-    "D": "Pauses the loop until the condition is met",
-    "answer": "B"
-  },
-  {
-    "question": "What does the 'continue' statement do in a loop in Python?",
-    "A": "Ends the loop",
-    "B": "Skips the current iteration and moves to the next one",
-    "C": "Pauses the loop for a defined time",
-    "D": "Exits the loop and continues to the next statement",
-    "answer": "A"
-  },
-  {
-    "question": "What does the 'count()' method do in Python for a string?",
-    "A": "Counts the number of words in the string",
-    "B": "Counts the occurrences of a character in the string",
-    "C": "Returns the length of the string",
-    "D": "Counts the total number of vowels",
-    "answer": "D"
-  },
-  {
-    "question": "What does the 'is not' operator do in Python?",
-    "A": "Checks if two objects are different types",
-    "B": "Checks if two objects are not equal",
-    "C": "Checks if two objects are different values",
-    "D": "Checks if two objects are not the same in memory",
-    "answer": "C"
-  },
-  {
-    "question": "What does the 'lambda' function keyword do in Python?",
-    "A": "Defines a function with arguments",
-    "B": "Defines a constant",
-    "C": "Defines an anonymous function",
-    "D": "Creates a variable",
-    "answer": "D"
-  },
-  {
-    "question": "What does the 'not' operator do in Python?",
-    "A": "Performs bitwise negation",
-    "B": "Reverses the result of a logical expression",
-    "C": "Changes the sign of a number",
-    "D": "Checks if a value is not equal",
-    "answer": "A"
-  },
-  {
-    "question": "What does the 'pass' statement do in Python?",
-    "A": "Stops the program",
-    "B": "Acts as a placeholder for future code",
-    "C": "Exits the function",
-    "D": "Continues to the next iteration of the loop",
-    "answer": "B"
-  },
-  {
-    "question": "What does the zip() function do in Python?",
-    "A": "Combines two or more iterables into an iterator of tuples",
-    "B": "Zips a string into a list of characters",
-    "C": "Returns the length of an iterable",
-    "D": "Merges two lists into a dictionary",
-    "answer": "B"
-  },
-  {
-    "question": "What is the correct syntax for a while loop in Python?",
-    "A": "while (i > 0): do something",
-    "B": "while (i > 0) { do something }",
-    "C": "while i > 0 do: something",
-    "D": "while i > 0: do something",
-    "answer": "A"
-  },
-  {
-    "question": "What is the correct syntax for creating a class in Python?",
-    "A": "class = MyClass",
-    "B": "def MyClass():",
-    "C": "class MyClass:",
-    "D": "create class MyClass:",
-    "answer": "A"
-  },
-  {
-    "question": "What is the correct syntax to create a tuple in Python?",
-    "A": "{1, 2, 3}",
-    "B": "[1, 2, 3]",
-    "C": "(1, 2, 3)",
-    "D": "<1, 2, 3>",
-    "answer": "A"
-  },
-  {
-    "question": "What is the correct syntax to define a function in Python?",
-    "A": "func myFunction():",
-    "B": "function myFunction():",
-    "C": "create function myFunction():",
-    "D": "def myFunction():",
-    "answer": "D"
-  },
-  {
-    "question": "What is the correct syntax to print 'Hello, World!' in Python?",
-    "A": "Console.WriteLine('Hello, World!')",
-    "B": "print('Hello, World!')",
-    "C": "System.out.println('Hello, World!')",
-    "D": "echo 'Hello, World!'",
-    "answer": "C"
-  },
-  {
-    "question": "What is the correct syntax to raise an exception in Python?",
-    "A": "throw Exception('An error occurred')",
-    "B": "raise Exception('An error occurred')",
-    "C": "exception('An error occurred')",
-    "D": "raise error('An error occurred')",
-    "answer": "C"
-  },
-  {
-    "question": "What is the correct way to define a list in Python?",
-    "A": "[1, 2, 3]",
-    "B": "array[1, 2, 3]",
-    "C": "list(1, 2, 3)",
-    "D": "list = [1, 2, 3]",
-    "answer": "A"
-  },
-  {
-    "question": "What is the correct way to open a file for reading in Python?",
-    "A": "open.read('file.txt')",
-    "B": "file.open('file.txt', 'read')",
-    "C": "read('file.txt')",
-    "D": "open('file.txt', 'r')",
-    "answer": "A"
-  },
-  {
-    "question": "What is the default value of a variable in Python if no value is assigned?",
-    "A": "Zero",
-    "B": "Undefined",
+    "question": "Which keyword is used to create a variable in Python?",
+    "A": "var",
+    "B": "let",
     "C": "None",
-    "D": "Null",
+    "D": "No keyword is needed",
     "answer": "D"
   },
   {
-    "question": "What is the output of the expression '(5 + 3) ** 2' in Python?",
-    "A": "8",
-    "B": "16",
-    "C": "64",
-    "D": "25",
+    "question": "How do you print a message in Python?",
+    "A": "echo('Hello World')",
+    "B": "print('Hello World')",
+    "C": "printf('Hello World')",
+    "D": "log('Hello World')",
     "answer": "B"
   },
   {
-    "question": "What is the output of the following code snippet? print(0.1 + 0.2 == 0.3)",
-    "A": "None",
-    "B": "Error",
-    "C": "True",
-    "D": "False",
-    "answer": "D"
+    "question": "Which data type is used to store a sequence of characters in Python?",
+    "A": "string",
+    "B": "str",
+    "C": "char",
+    "D": "text",
+    "answer": "B"
   },
   {
-    "question": "What is the output of the following code: print(2 + 3 * 4)?",
-    "A": "26",
-    "B": "11",
-    "C": "20",
-    "D": "14",
+    "question": "What is the correct way to start a for loop in Python?",
+    "A": "for x = range(0, 10):",
+    "B": "for x in range(0, 10):",
+    "C": "for x to range(0, 10):",
+    "D": "for x range(0, 10):",
+    "answer": "B"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in Python?",
+    "A": "//",
+    "B": "#",
+    "C": "/* */",
+    "D": "<!-- -->",
+    "answer": "B"
+  },
+  {
+    "question": "What will the following code output: print(type(42))?",
+    "A": "<class 'str'>",
+    "B": "<class 'float'>",
+    "C": "<class 'int'>",
+    "D": "<class 'bool'>",
     "answer": "C"
   },
   {
-    "question": "What is the output of the following code?\nprint(2 ** 3)",
-    "A": "6",
-    "B": "8",
-    "C": "5",
-    "D": "9",
+    "question": "How do you import a library in Python?",
+    "A": "import library_name",
+    "B": "using library_name",
+    "C": "require library_name",
+    "D": "include library_name",
     "answer": "A"
   },
   {
-    "question": "What is the output of the following code?\nx = 5\ny = 2\nprint(x // y)",
-    "A": "2.5",
-    "B": "3",
-    "C": "2",
-    "D": "Error",
-    "answer": "C"
-  },
-  {
-    "question": "What is the output of the following code? def add(a, b): return a + b; print(add(2, 3))",
-    "A": "23",
-    "B": "5",
-    "C": "None",
-    "D": "Error",
-    "answer": "C"
-  },
-  {
-    "question": "What is the output of the following code? def myFunc(x): return x + 1; print(myFunc(5))",
-    "A": "None",
-    "B": "7",
-    "C": "6",
-    "D": "5",
-    "answer": "A"
-  },
-  {
-    "question": "What is the purpose of the 'self' keyword in Python?",
-    "A": "To initialize a variable",
-    "B": "To create a new object",
-    "C": "To define a function",
-    "D": "To refer to the instance of the class",
-    "answer": "D"
-  },
-  {
-    "question": "What is the purpose of the `if statement in Python?",
-    "A": "To create a loop",
-    "B": "To execute code conditionally",
-    "C": "To declare a variable",
-    "D": "To define a function",
-    "answer": "A"
-  },
-  {
-    "question": "What is the purpose of the `len()` function in Python?",
-    "A": "To find the maximum value in a list",
-    "B": "To reverse a string",
-    "C": "To find the length of a string",
-    "D": "To sort a list",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of '5 * (3 + 2) ** 2' in Python?",
-    "A": "75",
-    "B": "50",
-    "C": "125",
-    "D": "25",
-    "answer": "C"
-  },
-  {
-    "question": "What is the result of '5 * 3 + 2 - 1' in Python?",
-    "A": "16",
-    "B": "18",
-    "C": "14",
-    "D": "15",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of '7 / 2' in Python 3?",
-    "A": "3",
-    "B": "3.5",
-    "C": "5",
-    "D": "4",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of 'abs(-10)' in Python?",
-    "A": "-10",
-    "B": "0",
-    "C": "10",
-    "D": "None",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of calling a function with a return statement but no value?",
-    "A": "Error",
-    "B": "None",
-    "C": "Undefined",
-    "D": "0",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of the equation '10 % 3' in Python?",
-    "A": "2",
-    "B": "4",
-    "C": "3",
-    "D": "1",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the equation '10 - 2 * 3' in Python?",
-    "A": "8",
-    "B": "2",
-    "C": "16",
-    "D": "4",
-    "answer": "A"
-  },
-  {
-    "question": "What is the result of the equation '10 / 2 * 3' in Python?",
-    "A": "20",
-    "B": "18",
-    "C": "15",
-    "D": "5",
-    "answer": "A"
-  },
-  {
-    "question": "What is the result of the equation '2 * (3 + 5)' in Python?",
-    "A": "16",
-    "B": "20",
-    "C": "10",
-    "D": "8",
-    "answer": "C"
-  },
-  {
-    "question": "What is the result of the equation '2 * 3 + 5 * (2 + 2)' in Python?",
-    "A": "28",
-    "B": "30",
-    "C": "26",
-    "D": "24",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the equation '5 ** 2' in Python?",
-    "A": "2",
-    "B": "25",
-    "C": "10",
-    "D": "5",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the equation '5 ** 3 + 10 * 2' in Python?",
-    "A": "110",
-    "B": "130",
-    "C": "120",
-    "D": "125",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of the equation '8 + 3 * 2' in Python?",
-    "A": "11",
-    "B": "14",
-    "C": "16",
-    "D": "18",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the equation 'pow(2, 3)' in Python?",
-    "A": "6",
-    "B": "8",
-    "C": "10",
-    "D": "None",
-    "answer": "D"
-  },
-  {
-    "question": "What is the result of the equation 'round(3.14159, 2)' in Python?",
-    "A": "3.14",
-    "B": "3.15",
-    "C": "3.1416",
-    "D": "3.1",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the expression '2 + 3 * (5 - 2)' in Python?",
-    "A": "10",
-    "B": "11",
-    "C": "13",
-    "D": "7",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the expression '5 != 3' in Python?",
-    "A": "Error",
-    "B": "False",
-    "C": "True",
+    "question": "What is the result of: len('Python')?",
+    "A": "5",
+    "B": "6",
+    "C": "7",
     "D": "None",
     "answer": "B"
   },
   {
-    "question": "What is the result of the expression '5 == 5' in Python?",
-    "A": "True",
-    "B": "Error",
-    "C": "False",
-    "D": "None",
-    "answer": "B"
-  },
-  {
-    "question": "What is the result of the expression 3 == 3 in Python?",
-    "A": "False",
-    "B": "None",
-    "C": "Error",
-    "D": "True",
+    "question": "Which method is used to add an item to a list?",
+    "A": "append()",
+    "B": "add()",
+    "C": "push()",
+    "D": "insert()",
     "answer": "A"
   },
   {
-    "question": "What is the result of the following code snippet? def greet(name): return 'Hello, ' + name; print(greet('Alice'))",
-    "A": "Hello Alice",
-    "B": "Hello, Alice",
-    "C": "greet Alice",
-    "D": "None",
+    "question": "What is the correct way to check if two variables `a` and `b` are equal in Python?",
+    "A": "a = b",
+    "B": "a == b",
+    "C": "a != b",
+    "D": "a equals b",
     "answer": "B"
-  },
-  {
-    "question": "What will be printed by the following code? def func(x): return x**2; print(func(4))",
-    "A": "8",
-    "B": "Error",
-    "C": "16",
-    "D": "4",
-    "answer": "B"
-  },
-  {
-    "question": "What will be the result of the expression '9 // 4' in Python?",
-    "A": "3",
-    "B": "1",
-    "C": "2",
-    "D": "2.25",
-    "answer": "B"
-  },
-  {
-    "question": "What will the expression '10 > 5' evaluate to in Python?",
-    "A": "None",
-    "B": "False",
-    "C": "Error",
-    "D": "True",
-    "answer": "D"
-  },
-  {
-    "question": "What will the following code output? def greet(name = 'User'): print('Hello', name); greet()",
-    "A": "Hello name",
-    "B": "Hello User",
-    "C": "Hello None",
-    "D": "Hello",
-    "answer": "D"
-  },
-  {
-    "question": "What will the following code snippet print? print(type(10))",
-    "A": "int",
-    "B": "10",
-    "C": "<type 'int'>",
-    "D": "<class 'int'>",
-    "answer": "B"
-  },
-  {
-    "question": "What will the following function return? def func(): return 2 * 3",
-    "A": "3",
-    "B": "None",
-    "C": "6",
-    "D": "2",
-    "answer": "C"
-  },
-  {
-    "question": "Which Python function can be used to convert a string into an integer?",
-    "A": "convert()",
-    "B": "int()",
-    "C": "float()",
-    "D": "str()",
-    "answer": "C"
-  },
-  {
-    "question": "Which function in Python will return the smallest of a set of numbers?",
-    "A": "smallest()",
-    "B": "min_value()",
-    "C": "min()",
-    "D": "least()",
-    "answer": "D"
-  },
-  {
-    "question": "Which function is used to get the length of a list in Python?",
-    "A": "len()",
-    "B": "length()",
-    "C": "size()",
-    "D": "count()",
-    "answer": "B"
-  },
-  {
-    "question": "Which keyword is used to create a loop that executes a specific number of times?",
-    "A": "for",
-    "B": "repeat",
-    "C": "while",
-    "D": "do-while",
-    "answer": "C"
   },
   {
     "question": "Which keyword is used to handle exceptions in Python?",
     "A": "catch",
-    "B": "try",
-    "C": "error",
-    "D": "except",
-    "answer": "A"
-  },
-  {
-    "question": "Which keyword is used to return a value from a function in Python?",
-    "A": "break",
-    "B": "yield",
-    "C": "return",
-    "D": "exit",
+    "B": "except",
+    "C": "handle",
+    "D": "error",
     "answer": "B"
   },
   {
-    "question": "Which method in Python checks if a string contains only digits?",
-    "A": "isdigit()",
-    "B": "isnumeric()",
-    "C": "isint()",
-    "D": "isdigitchars()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method in Python is used to replace a substring with another substring in a string?",
-    "A": "substitute()",
-    "B": "swap()",
-    "C": "switch()",
-    "D": "replace()",
-    "answer": "B"
-  },
-  {
-    "question": "Which method in Python splits a string into a list based on a delimiter?",
-    "A": "separate()",
-    "B": "break()",
-    "C": "split()",
-    "D": "divide()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method in Python would you use to join elements of a list into a string?",
-    "A": "join()",
-    "B": "concatenate()",
-    "C": "combine()",
-    "D": "merge()",
+    "question": "What does the `type()` function do in Python?",
+    "A": "It defines a variable's type",
+    "B": "It converts a variable's type",
+    "C": "It returns the type of a variable",
+    "D": "It checks if a variable is a specific type",
     "answer": "C"
   },
   {
-    "question": "Which method is used to check if a string consists of only whitespace characters?",
-    "A": "empty()",
-    "B": "whitespace()",
-    "C": "isblank()",
-    "D": "isspace()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method is used to check if all characters in a string are alphabetic?",
-    "A": "alphachars()",
-    "B": "hasalpha()",
-    "C": "isletters()",
-    "D": "isalpha()",
-    "answer": "B"
-  },
-  {
-    "question": "Which method is used to convert all characters of a string to uppercase in Python?",
-    "A": "uppercase()",
-    "B": "upper()",
-    "C": "toUpper()",
-    "D": "capitalize()",
-    "answer": "B"
-  },
-  {
-    "question": "Which method is used to return a copy of the string with all characters in lowercase?",
-    "A": "lower()",
-    "B": "toLower()",
-    "C": "make_lower()",
-    "D": "downcase()",
-    "answer": "D"
-  },
-  {
-    "question": "Which method removes any leading (spaces at the beginning) and trailing (spaces at the end) characters from a string?",
-    "A": "strip()",
-    "B": "clean()",
-    "C": "trim()",
-    "D": "remove()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method returns the length of a string in Python?",
-    "A": "count()",
-    "B": "length()",
-    "C": "len()",
-    "D": "size()",
-    "answer": "B"
-  },
-  {
-    "question": "Which method would you use to check if a string ends with a specific substring?",
-    "A": "endswith()",
-    "B": "checkend()",
-    "C": "ends()",
-    "D": "finishwith()",
-    "answer": "D"
-  },
-  {
-    "question": "Which method would you use to check if a string starts with a specific substring?",
-    "A": "beginswith()",
-    "B": "checkstart()",
-    "C": "starts()",
-    "D": "startswith()",
-    "answer": "D"
-  },
-  {
-    "question": "Which method would you use to convert a string to lowercase in Python?",
-    "A": "make_lower()",
-    "B": "toLower()",
-    "C": "downcase()",
-    "D": "lower()",
+    "question": "How do you start a conditional statement in Python?",
+    "A": "if x == 10",
+    "B": "if (x == 10):",
+    "C": "if x == 10:",
+    "D": "if x is 10 then:",
     "answer": "C"
   },
   {
-    "question": "Which method would you use to convert a string to title case in Python (capitalizing the first letter of each word)?",
-    "A": "capitalize()",
-    "B": "title()",
-    "C": "uppercase()",
-    "D": "initcap()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method would you use to find the position of a substring within a string in Python?",
-    "A": "indexOf()",
-    "B": "position()",
-    "C": "search()",
-    "D": "find()",
-    "answer": "A"
-  },
-  {
-    "question": "Which method would you use to remove all occurrences of a specific character from a string in Python?",
-    "A": "strip()",
-    "B": "remove()",
-    "C": "replace()",
-    "D": "delete()",
-    "answer": "D"
-  },
-  {
-    "question": "Which method would you use to remove leading spaces from a string in Python?",
-    "A": "remove()",
-    "B": "strip()",
-    "C": "lstrip()",
-    "D": "rstrip()",
-    "answer": "D"
-  },
-  {
-    "question": "Which of the following allows you to pass an arbitrary number of keyword arguments to a function in Python?",
-    "A": "**kwargs",
-    "B": "kwargs()",
-    "C": "*all",
-    "D": "*args",
-    "answer": "D"
-  },
-  {
-    "question": "Which of the following data types are immutable in Python?",
-    "A": "Dictionaries",
-    "B": "Lists",
-    "C": "Tuples",
-    "D": "Sets",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following is NOT a valid data type in Python?",
-    "A": "real",
-    "B": "float",
-    "C": "string",
-    "D": "int",
+    "question": "Which of the following is a valid Python list?",
+    "A": "{1, 2, 3}",
+    "B": "[1, 2, 3]",
+    "C": "(1, 2, 3)",
+    "D": "<1, 2, 3>",
     "answer": "B"
   },
   {
-    "question": "Which of the following is a function that accepts an arbitrary number of positional arguments in Python?",
-    "A": "func()",
-    "B": "func(*args)",
-    "C": "func(**args)",
-    "D": "func(*kwargs)",
+    "question": "How do you declare a dictionary in Python?",
+    "A": "{'key': 'value'}",
+    "B": "['key', 'value']",
+    "C": "('key', 'value')",
+    "D": "dictionary('key', 'value')",
     "answer": "A"
   },
   {
-    "question": "Which of the following is the correct way to calculate the square root of a number in Python?",
-    "A": "math.sqrt(x)",
-    "B": "x ** 0.5",
-    "C": "A and B",
-    "D": "sqrt(x)",
-    "answer": "D"
-  },
-  {
-    "question": "Which of the following is the correct way to check if a value is in a list in Python?",
-    "A": "list.contains(value)",
-    "B": "value of list",
-    "C": "value.isin(list)",
-    "D": "value in list",
+    "question": "Which of the following is a correct Python comment?",
+    "A": "// This is a comment",
+    "B": "# This is a comment",
+    "C": "/* This is a comment */",
+    "D": "<!-- This is a comment -->",
     "answer": "B"
   },
   {
-    "question": "Which of the following is the correct way to define a dictionary in Python?",
-    "A": "<key: value>",
-    "B": "['key': 'value']",
-    "C": "(key: value)",
-    "D": "{'key': 'value'}",
+    "question": "What is the output of: `bool(0)`?",
+    "A": "True",
+    "B": "False",
+    "C": "None",
+    "D": "Error",
+    "answer": "B"
+  },
+  {
+    "question": "What will `3 * 2 ** 3` evaluate to in Python?",
+    "A": "18",
+    "B": "24",
+    "C": "48",
+    "D": "12",
+    "answer": "B"
+  },
+  {
+    "question": "How do you create a tuple with one element?",
+    "A": "(1)",
+    "B": "(1,)",
+    "C": "[1]",
+    "D": "{1}",
+    "answer": "B"
+  },
+  {
+    "question": "What is the result of `5 // 2`?",
+    "A": "2",
+    "B": "2.5",
+    "C": "3",
+    "D": "Error",
     "answer": "A"
   },
   {
-    "question": "Which of the following is the correct way to define a function in Python?",
-    "A": "def function_name[]:",
-    "B": "function_name() = :",
-    "C": "def function_name():",
-    "D": "function function_name():",
+    "question": "How can you iterate through a list in Python?",
+    "A": "for item of list:",
+    "B": "for item in list:",
+    "C": "foreach item in list:",
+    "D": "loop item in list:",
     "answer": "B"
   },
   {
-    "question": "Which of the following is the correct way to handle multiple exceptions in a single except block?",
-    "A": "except Error1 or Error2:",
-    "B": "except (Error1, Error2):",
-    "C": "except Error1, Error2:",
-    "D": "except [Error1, Error2]:",
-    "answer": "D"
-  },
-  {
-    "question": "Which of the following is used to call a function in Python?",
-    "A": "function_name()",
-    "B": "call function_name()",
-    "C": "invoke function_name()",
-    "D": "function_name",
+    "question": "What is the correct syntax to check the length of a list `myList`?",
+    "A": "myList.size",
+    "B": "len(myList)",
+    "C": "myList.length()",
+    "D": "length(myList)",
     "answer": "B"
   },
   {
-    "question": "Which of the following is used to create a list in Python?",
-    "A": "()",
-    "B": "{}",
-    "C": "<>",
-    "D": "[]",
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is used to declare a variable in Python?",
-    "A": "int x = 5",
-    "B": "x = 5",
-    "C": "let x = 5",
-    "D": "var x = 5",
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is used to import modules in Python?",
-    "A": "import",
-    "B": "include",
-    "C": "require",
-    "D": "using",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following is used to pass a variable number of arguments to a function?",
-    "A": "*args",
-    "B": "**kwargs",
-    "C": "*varargs",
-    "D": "Both A and B",
-    "answer": "A"
-  },
-  {
-    "question": "Which of the following methods can be used to add an item to a list in Python?",
-    "A": "extend()",
-    "B": "append()",
-    "C": "insert()",
-    "D": "add()",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following methods can be used to check if a string contains only lowercase characters in Python?",
-    "A": "isLower()",
-    "B": "islowercase()",
-    "C": "isSmall()",
-    "D": "islower()",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following methods is used to remove a key from a dictionary in Python?",
-    "A": "clear()",
-    "B": "delete()",
-    "C": "remove()",
-    "D": "pop()",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following operators has the highest precedence in Python?",
-    "A": "*",
-    "B": "+",
-    "C": "-",
-    "D": "**",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following operators is used for exponentiation in Python?",
-    "A": "//",
-    "B": "^^",
-    "C": "^",
-    "D": "**",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following operators is used to check if two objects are the same in Python?",
-    "A": "==",
-    "B": "is",
-    "C": "equals()",
-    "D": "is not",
-    "answer": "A"
-  },
-  {
-    "question": "Which of the following statements about Python functions is true?",
-    "A": "A function cannot have default parameters",
-    "B": "A function can have no return statement",
-    "C": "None of the above",
-    "D": "A function must always return a value",
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following statements is true about Python's lists?",
-    "A": "Lists are only for integers.",
-    "B": "Lists are immutable.",
-    "C": "Lists are ordered and can contain duplicate values.",
-    "D": "Lists cannot contain other lists.",
-    "answer": "A"
-  },
-  {
-    "question": "Which operator is used for floor division in Python?",
-    "A": "&",
-    "B": "/",
-    "C": "%",
+    "question": "Which operator is used for exponentiation in Python?",
+    "A": "^",
+    "B": "**",
+    "C": "*",
     "D": "//",
     "answer": "B"
   },
   {
-    "question": "Which operator is used for logical AND in Python?",
-    "A": "|",
-    "B": "&",
-    "C": "and",
-    "D": "&&",
+    "question": "What does the `is` keyword check in Python?",
+    "A": "If two variables are equal",
+    "B": "If two variables have the same value",
+    "C": "If two variables reference the same object",
+    "D": "If two variables are of the same type",
+    "answer": "C"
+  },
+  {
+    "question": "How do you create an infinite loop in Python?",
+    "A": "while True:",
+    "B": "while (True):",
+    "C": "while 1:",
+    "D": "All of the above",
+    "answer": "D"
+  },
+  {
+    "question": "What is the correct syntax to define a function with no parameters in Python?",
+    "A": "function myFunction()",
+    "B": "def myFunction()",
+    "C": "def myFunction():",
+    "D": "define myFunction()",
+    "answer": "C"
+  },
+  {
+    "question": "How do you call a function named `myFunction` in Python?",
+    "A": "myFunction()",
+    "B": "call myFunction",
+    "C": "execute myFunction",
+    "D": "run myFunction()",
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is used to return a value from a Python function?",
+    "A": "output",
+    "B": "return",
+    "C": "yield",
+    "D": "give",
     "answer": "B"
   },
   {
-    "question": "Which operator is used for logical OR in Python?",
-    "A": "or",
-    "B": "|",
-    "C": "||",
-    "D": "&&",
-    "answer": "D"
-  },
-  {
-    "question": "Which operator is used to check if a key exists in a dictionary in Python?",
-    "A": "in",
-    "B": "exists",
-    "C": "check()",
-    "D": "has_key()",
+    "question": "What does the `lambda` keyword define in Python?",
+    "A": "An anonymous function",
+    "B": "A global function",
+    "C": "A generator",
+    "D": "A recursive function",
     "answer": "A"
   },
   {
-    "question": "Which operator is used to check if two values are equal?",
-    "A": "=",
-    "B": "<>",
-    "C": "!==",
-    "D": "==",
-    "answer": "C"
-  },
-  {
-    "question": "Which operator is used to check if two variables are equal in Python?",
-    "A": "!=",
-    "B": "==",
-    "C": "=",
-    "D": "===",
-    "answer": "C"
-  },
-  {
-    "question": "Which operator is used to concatenate strings in Python?",
-    "A": "*",
-    "B": "and",
-    "C": "&",
-    "D": "+",
+    "question": "What will be the output of `abs(-7)` in Python?",
+    "A": "7",
+    "B": "-7",
+    "C": "0",
+    "D": "Error",
     "answer": "A"
   },
   {
-    "question": "Which operator is used to perform bitwise AND in Python?",
-    "A": "&",
-    "B": "&&&",
-    "C": "&&",
-    "D": "and",
+    "question": "What is the result of `round(4.567, 2)` in Python?",
+    "A": "4.5",
+    "B": "4.57",
+    "C": "4.6",
+    "D": "4.56",
+    "answer": "B"
+  },
+  {
+    "question": "How do you calculate the square root of a number in Python?",
+    "A": "sqrt(x)",
+    "B": "math.sqrt(x)",
+    "C": "x ** 0.5",
+    "D": "Both B and C",
     "answer": "D"
   },
   {
-    "question": "Which operator is used to perform bitwise OR in Python?",
-    "A": "||",
-    "B": "xor",
-    "C": "|",
-    "D": "or",
+    "question": "What does the `math.floor()` function do?",
+    "A": "Rounds a number up to the nearest integer",
+    "B": "Rounds a number down to the nearest integer",
+    "C": "Returns the absolute value of a number",
+    "D": "Calculates the factorial of a number",
+    "answer": "B"
+  },
+  {
+    "question": "What is the output of `pow(2, 3)`?",
+    "A": "8",
+    "B": "6",
+    "C": "9",
+    "D": "None of the above",
     "answer": "A"
   },
   {
-    "question": "Which operator is used to perform exponentiation in Python?",
-    "A": "%",
-    "B": "//",
-    "C": "**",
-    "D": "^",
+    "question": "What is the result of `divmod(10, 3)`?",
+    "A": "(3, 1)",
+    "B": "(1, 3)",
+    "C": "[3, 1]",
+    "D": "[1, 3]",
+    "answer": "A"
+  },
+  {
+    "question": "Which keyword is used to define default values for function parameters in Python?",
+    "A": "default",
+    "B": "=",
+    "C": ":",
+    "D": "None",
+    "answer": "B"
+  },
+  {
+    "question": "How do you calculate the factorial of a number using the math library?",
+    "A": "math.factorial(x)",
+    "B": "factorial(x)",
+    "C": "math.fact(x)",
+    "D": "fact(x)",
+    "answer": "A"
+  },
+  {
+    "question": "What is the value of `10 % 3`?",
+    "A": "1",
+    "B": "3",
+    "C": "0",
+    "D": "10",
+    "answer": "A"
+  },
+  {
+    "question": "What is the output of `max(3, 7, 2)`?",
+    "A": "2",
+    "B": "3",
+    "C": "7",
+    "D": "None",
     "answer": "C"
   },
   {
-    "question": "Which operator would you use to get the remainder of a division in Python?",
-    "A": "/",
-    "B": "%",
-    "C": "//",
-    "D": ">>",
+    "question": "What does `sum([1, 2, 3])` return?",
+    "A": "6",
+    "B": "123",
+    "C": "[1, 2, 3]",
+    "D": "Error",
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is the correct syntax for an if statement in Python?",
+    "A": "if (x > 10)",
+    "B": "if x > 10:",
+    "C": "if x > 10 then",
+    "D": "if x > 10 {",
+    "answer": "B"
+  },
+  {
+    "question": "What is the correct way to check if `x` is not equal to 5 in Python?",
+    "A": "if x <> 5:",
+    "B": "if x =! 5:",
+    "C": "if x != 5:",
+    "D": "if x not 5:",
+    "answer": "C"
+  },
+  {
+    "question": "How do you write an else statement in Python?",
+    "A": "else:",
+    "B": "else {",
+    "C": "otherwise:",
+    "D": "default:",
+    "answer": "A"
+  },
+  {
+    "question": "What is the output of this code? \n\nx = 10\nif x > 5:\n    print('A')\nelse:\n    print('B')",
+    "A": "A",
+    "B": "B",
+    "C": "Error",
+    "D": "None",
+    "answer": "A"
+  },
+  {
+    "question": "Which keyword is used to stop a loop in Python?",
+    "A": "exit",
+    "B": "stop",
+    "C": "break",
+    "D": "end",
+    "answer": "C"
+  },
+  {
+    "question": "What does the `continue` statement do in a loop?",
+    "A": "Stops the loop",
+    "B": "Skips the current iteration and continues with the next one",
+    "C": "Exits the loop completely",
+    "D": "Pauses the loop",
+    "answer": "B"
+  },
+  {
+    "question": "Which loop will iterate through numbers 0 to 9?",
+    "A": "for i in range(10):",
+    "B": "for i in range(0, 10, 1):",
+    "C": "Both A and B",
+    "D": "None of the above",
+    "answer": "C"
+  },
+  {
+    "question": "What is the output of the following code? \n\nfor i in range(3):\n    print(i)",
+    "A": "1 2 3",
+    "B": "0 1 2",
+    "C": "0 1 2 3",
+    "D": "1 2",
+    "answer": "B"
+  },
+  {
+    "question": "How do you create a loop that repeats until a condition is true?",
+    "A": "while condition:",
+    "B": "repeat while condition:",
+    "C": "loop until condition:",
+    "D": "while (condition):",
+    "answer": "A"
+  },
+  {
+    "question": "What is the output of this code? \n\nx = 5\nif x > 10:\n    print('A')\nelif x > 3:\n    print('B')\nelse:\n    print('C')",
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "None",
+    "answer": "B"
+  },
+  {
+    "question": "What is the correct way to iterate over a list in Python?",
+    "A": "for i of myList:",
+    "B": "for i in myList:",
+    "C": "foreach i in myList:",
+    "D": "while i in myList:",
+    "answer": "B"
+  },
+  {
+    "question": "Which statement is used in Python to create an infinite loop?",
+    "A": "while True:",
+    "B": "while (1):",
+    "C": "for i in range(infinite):",
+    "D": "Both A and B",
     "answer": "D"
+  },
+  {
+    "question": "What is the output of this code? \n\nx = 0\nwhile x < 3:\n    x += 1\n    print(x)",
+    "A": "0 1 2",
+    "B": "1 2 3",
+    "C": "0 1 2 3",
+    "D": "1 2",
+    "answer": "B"
+  },
+  {
+    "question": "What happens when the condition in a while loop is False initially?",
+    "A": "The loop executes once",
+    "B": "The loop does not execute at all",
+    "C": "The loop executes infinitely",
+    "D": "An error occurs",
+    "answer": "B"
+  },
+  {
+    "question": "What is the correct way to write a nested if statement in Python?",
+    "A": "if x > 5:\n    if x < 10:\n        print('A')",
+    "B": "if x > 5 then if x < 10 then print('A')",
+    "C": "if x > 5:\nif x < 10:\nprint('A')",
+    "D": "if (x > 5 and x < 10):\nprint('A')",
+    "answer": "A"
   }
 ]
