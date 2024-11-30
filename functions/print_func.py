@@ -1,14 +1,18 @@
 import json
-from typing import Optional
 
 def print_init() -> None:
+    """
+    Prints the initial message of the quiz
+    """
     print("-------------------------------------")
     print("Welcome to the the quiz")
     print("-------------------------------------")
 
 
 def print_topics() -> None:
-
+    """
+    Fetches the topics available in the data repo
+    """
     print("-------------------------------------")
 
     with open("./config/topics.json", "r") as data:
@@ -21,11 +25,9 @@ def print_topics() -> None:
 
 
 def print_question(json_name: str, index: int, i:int) -> None:
-
-    # if not i:
-    #     i = ""
-    # else:
-    #     i = f"{i+1}. "
+    """
+    Prints the questions
+    """
 
     with open(f"./data/{json_name}.json", "r") as data:
         data = json.load(fp=data)

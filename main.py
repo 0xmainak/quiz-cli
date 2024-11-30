@@ -13,13 +13,11 @@ if __name__ == "__main__":
     for i in range(10):
 
         topic = get_topic(inp_topic)
-
         index = random.randrange(0, get_length(topic))
 
         print_question(json_name=topic, index=index, i=i)
 
         answer = input("\n: ").upper()
-
         correct_answer = get_answer(question=get_question(json_name=topic, index=index))
 
         if answer == correct_answer:
