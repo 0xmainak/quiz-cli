@@ -1,0 +1,8 @@
+click==8.1.7
+markdown-it-py==3.0.0
+mdurl==0.1.2
+prompt-toolkit==3.0.36
+Pygments==2.18.0
+questionary==2.0.1
+rich==13.9.4
+wcwidth==0.2.13

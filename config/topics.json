@@ -1,9 +1,46 @@
 {
-    "1" : ["Basic Science", "basic_sci"],
-    "2" : ["Basic Python", "python"],
-    "3" : ["Math Module (py)", "python_math"],
-    "4" : ["Python Internet", "python_internet"],
-    "5" : ["ML Basics", "basic_ml"],
-    "6" : ["DSA", "dsa"],
-    "7" : ["Basic C", "basic_c"]
+    "topics": [
+        {
+            "display_name": "Basic Science",
+            "file_name": "basic_sci",
+            "description": "Fundamental concepts in science including physics, chemistry and biology",
+            "difficulty": "beginner"
+        },
+        {
+            "display_name": "Basic Python",
+            "file_name": "python",
+            "description": "Introduction to Python programming language fundamentals",
+            "difficulty": "beginner"
+        },
+        {
+            "display_name": "Math Module (Python)",
+            "file_name": "python_math",
+            "description": "Working with Python's math module for mathematical operations",
+            "difficulty": "intermediate"
+        },
+        {
+            "display_name": "Python Internet",
+            "file_name": "python_internet",
+            "description": "Network programming and web concepts in Python",
+            "difficulty": "intermediate"
+        },
+        {
+            "display_name": "Machine Learning Basics",
+            "file_name": "basic_ml",
+            "description": "Introduction to machine learning concepts and algorithms",
+            "difficulty": "advanced"
+        },
+        {
+            "display_name": "Data Structures & Algorithms",
+            "file_name": "dsa",
+            "description": "Common data structures and algorithms implementation",
+            "difficulty": "advanced"
+        },
+        {
+            "display_name": "Basic C Programming",
+            "file_name": "basic_c",
+            "description": "Introduction to C programming language fundamentals",
+            "difficulty": "beginner"
+        }
+    ]
 }
